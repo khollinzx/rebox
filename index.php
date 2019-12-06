@@ -113,7 +113,7 @@ include(ROOT_PATH . 'inc/landingPageheader.php');
                                         <button type="submit" class="form-control-submit-button disabled">SIGN UP</button>
                                     </div>
                                     <div class="form-group">
-                                        <button type="submit" class="form-control-submit-button disabled">Already have an Account</button>
+                                        <button type="submit" class="form-control-submit-button disabled login-button">Already have an Account</button>
                                     </div>
                                     <div class="form-message">
                                         <div id="rmsgSubmit" class="h3 text-center hidden"></div>
