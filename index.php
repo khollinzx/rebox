@@ -162,10 +162,10 @@ include(ROOT_PATH . 'inc/landingPageheader.php');
                 <div class="col-lg-8">
                     <div class="text-container">
                         <h3>WHY INVEST IN US, EUROPE WHEN THE NEXT BIG MARKET IS HERE</h3>
-                        <p>We make investment Accessible/ Inclusive by giving you the BEST investment optionfrom every sector.</p>
+                        <p>We make investment Accessible/ Inclusive by giving you the BEST investment option from every sector.</p>
                         <ul class="list-unstyled li-space-lg">
                         <li class="media">
-                            <i class="fas fa-check"></i><div class="media-body">you can own local shares, trust funds, finance project, trade forex all with this tiny box</div>
+                            <i class="fas fa-check"></i><div class="media-body">You can own local shares, trust funds, finance project, trade forex all with this tiny box</div>
                         </li>
                         <li class="media">
                             <i class="fas fa-check"></i><div class="media-body">Invest directly into Africa from anywhere in the world</div>
