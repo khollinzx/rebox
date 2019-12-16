@@ -22,7 +22,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
             <div class="col-md-2">
             </div> <!-- end of col -->
             <div class="col-md-8">
-                <h2>Login</h2>
+                <h2 style="color:#008eda">Login</h2>
                 <form class="ml-2 mr-3" id="requestForm" data-toggle="validator" data-focus="false" novalidate="true">
                     <div class="form-group">
                         <input type="email" class="form-control-input" id="email" name="email" required="" placeholder="Email Address">
