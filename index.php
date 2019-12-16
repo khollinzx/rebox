@@ -21,7 +21,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                         <h1 style="text-align: center;color: #fff"><span class="turquoise">Rebox.Ng</span> is a centralized investment platform that make all investment option readily available for you</h1>
                         <p class="p-large" style="font-size: 18px; color: #fff;text-align: center;">With as little as <b>N</b>1000, <i class="fas fa-dollar-sign"></i>20, 50<i class="fas fa-euro-sign"></i>, 50<i class="fas fa-pound-sign"></i> you could own shares, money market instrucment, or even part of a project to be executed.</p>
                         <div class="text-center">
-                            <a href="<?php echo BASE_URL;?>login.php" class=" page-scroll btn-solid-reg mr-3 mb-3"> SIGN UP TO GET STARTED <i class="fa fa-right-arrow"></i> </a>
+                            <a href="<?php echo BASE_URL; ?>login.php" class=" page-scroll btn-solid-reg mr-3 mb-3"> SIGN UP TO GET STARTED <i class="fa fa-right-arrow"></i> </a>
                         </div>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
@@ -44,37 +44,61 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                 <div class="text-container">
                     <h2>INVEST WITH CONFIDENCE IN AFRICA'S BIGGEST FINANCIAL MARKET</h2>
                     <p>GET ACCESS AND EASILY COMPARE INVESTMENT OPTION IN.</p>
-                    <ul class="list-unstyled li-space-lg">
+                    <ul class="list-unstyled li-space-lg" style="font-size:20px;">
                         <li class="media">
-                            <i class="fas fa-check"></i>
+                            <span class="fa-stack">
+                                <i style="color:#0377b6e0;" class="fas fa-circle fa-stack-2x"></i>
+                                <i style="color:#fff;" class="fas fa-chart-line fa-stack-1x"></i>
+                            </span>
                             <div class="media-body"> Shares.</div>
                         </li>
                         <li class="media">
-                            <i class="fas fa-check"></i>
+                            <span class="fa-stack">
+                                <i style="color:coral;" class="fas fa-circle fa-stack-2x"></i>
+                                <i style="color:#fff;" class="fas fa-credit-card fa-stack-1x"></i>
+                            </span>
                             <div class="media-body">Trust Funds.</div>
                         </li>
                         <li class="media">
-                            <i class="fas fa-check"></i>
+                            <span class="fa-stack">
+                                <i style="color:violet;" class="fas fa-circle fa-stack-2x"></i>
+                                <i style="color:#fff;" class="fas fa-briefcase fa-stack-1x"></i>
+                            </span>
                             <div class="media-body">Project Finance.</div>
                         </li>
                         <li class="media">
-                            <i class="fas fa-check"></i>
+                            <span class="fa-stack">
+                                <i style="color:teal" class="fas fa-circle fa-stack-2x"></i>
+                                <i style="color:#fff;" class="fas fa-chart-bar fa-stack-1x"></i>
+                            </span>
                             <div class="media-body">Forex</div>
                         </li>
                         <li class="media">
-                            <i class="fas fa-check"></i>
+                            <span class="fa-stack">
+                                <i style="color:chocolate" class="fas fa-circle fa-stack-2x"></i>
+                                <i style="color:#fff; margin-top: -15%;" class="fab fa-btc fa-stack-1x"></i>
+                            </span>
                             <div class="media-body"> Cryptocurrencies.</div>
                         </li>
                         <li class="media">
-                            <i class="fas fa-check"></i>
+                            <span class="fa-stack">
+                                <i style="color:goldenrod;" class="fas fa-circle fa-stack-2x"></i>
+                                <i style="color:#fff;" class="fas fa-building fa-stack-1x"></i>
+                            </span>
                             <div class="media-body">Real Estate.</div>
                         </li>
                         <li class="media">
-                            <i class="fas fa-check"></i>
+                            <span class="fa-stack">
+                                <i style="color:orange;" class="fas fa-circle fa-stack-2x"></i>
+                                <i style="color:#fff;" class="fas fa-wallet fa-stack-1x"></i>
+                            </span>
                             <div class="media-body">Mutual Funds.</div>
                         </li>
                         <li class="media">
-                            <i class="fas fa-check"></i>
+                            <span class="fa-stack">
+                                <i style="color:saddlebrown;" class="fas fa-circle fa-stack-2x"></i>
+                                <i style="color:#fff;" class="fas fa-list-ul fa-stack-1x"></i>
+                            </span>
                             <div class="media-body">And more investment options</div>
                         </li>
                     </ul>
