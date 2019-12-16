@@ -61,6 +61,8 @@ body, p {
 
 .p-small {
 	font: 400 0.75rem/1.25rem "Raleway", sans-serif;
+	color: #fff;
+	font-size: 15px;
 }
 
 .p-heading {
@@ -138,9 +140,9 @@ a.white {
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #00bfd8;
+	border: 0.125rem solid #008eda;
 	border-radius: 2rem;
-	background-color: #00bfd8;
+	background-color: #008eda;
 	color: #fff;
 	font: 700 0.75rem/0 "Raleway", sans-serif;
 	text-decoration: none;
@@ -252,11 +254,39 @@ a.white {
 	transition: all 0.2s ease;
 }
 
+.slide_up{
+	animation: slideMe .7s ease-in;
+}
+
+@keyframes slideMe{
+	0%{
+		transform: translateX(-500px);
+	}
+	100% {
+		transform: translateX(0deg);
+	}
+}
+
 /* IE10+ hack to solve lower label text position compared to the rest of the browsers */
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
 	.label-control {
 		top: 0.9375rem;
 	}
+}
+
+.header {
+	background: url('../images/3.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.ex-header2 {
+	background: url('../images/3.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.ex-header {
+	background: url('../images/3.jpg') center center no-repeat;
+	background-size: cover;
 }
 
 .form-control-input:focus + .label-control,
@@ -294,6 +324,22 @@ a.white {
 
 /* IE10+ hack to solve lower label text position compared to the rest of the browsers */
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+
+	.header {
+		background: url('../images/3.jpg') center center no-repeat;
+		background-size: cover;
+	}
+
+	.ex-header2 {
+		background: url('../images/3.jpg') center center no-repeat;
+		background-size: cover;
+	}
+
+	.ex-header {
+		background: url('../images/3.jpg') center center no-repeat;
+		background-size: cover;
+	}
+
 	.form-control-input {
 		padding-top: 1.25rem;
 		padding-bottom: 0.75rem;
@@ -368,13 +414,28 @@ input[type='checkbox'] {
 	}
 }
 
+.header {
+	background: url('../images/3.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.ex-header2 {
+	background: url('../images/3.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.ex-header {
+	background: url('../images/3.jpg') center center no-repeat;
+	background-size: cover;
+}
+
 .form-control-submit-button {
 	display: inline-block;
 	width: 100%;
 	height: 3.125rem;
-	border: 1px solid #00bfd8;
+	border: 1px solid #008eda;
 	border-radius: 1.5rem;
-	background-color: #00bfd8;
+	background-color: #008eda;
 	color: #fff;
 	font: 700 0.75rem/1.75rem "Raleway", sans-serif;
 	cursor: pointer;
@@ -661,15 +722,12 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link {
 	padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-	color: #393939;
+	color: #000;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
 
-.navbar-custom .nav-item .nav-link:hover,
-.navbar-custom .nav-item .nav-link.active {
-	color: #00bfd8;
-}
+
 
 /* Dropdown Menu */
 .navbar-custom .dropdown:hover > .dropdown-menu {
@@ -1312,7 +1370,7 @@ input[type='checkbox'] {
 .slider-2 {
 	padding-top: 7.5rem;
 	padding-bottom: 7rem;
-	background: url('../images/testimonials-background.jpg') center center no-repeat;
+	background: url('../images/4.jpg') center center no-repeat;
 	background-size: cover; 
 }
 
@@ -1542,7 +1600,7 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack .fa-stack-2x {
-	color: #00bfd8;
+	color: #008eda;
 	transition: all 0.2s ease;
 }
 
@@ -1583,7 +1641,7 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #00bfd8 url("../images/up-arrow.png") no-repeat center 47%;
+	background: #008eda url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
@@ -1599,6 +1657,12 @@ a:hover.back-to-top {
 .ex-header {
 	padding-top: 8rem;
 	padding-bottom: 5rem;
+	text-align: center;
+}
+
+.ex-header2 {
+	padding-top: 4rem;
+	padding-bottom: 3rem;
 	text-align: center;
 }
 
@@ -1692,6 +1756,17 @@ a:hover.back-to-top {
 	}
 	/* end of header */
 
+	.ex-header2 {
+		background: url('../images/3.jpg') center center no-repeat;
+		background-size: cover;
+	}
+	/* end of ex-header2 */
+
+	.ex-header {
+		background: url('../images/3.jpg') center center no-repeat;
+		background-size: cover;
+	}
+
 
 	/* Customers */
 	.slider-1 {
@@ -1770,6 +1845,11 @@ a:hover.back-to-top {
 		padding-bottom: 9rem;
 	}
 
+	.ex-header2 {
+		padding-top: 4rem;
+		padding-bottom: 2rem;
+	}
+
 	.ex-basic-2 .text-container.dark {
 		padding: 2.5rem 3rem 2rem 3rem;
 	}
@@ -1786,7 +1866,22 @@ a:hover.back-to-top {
 
 /* Min-width width 992px */
 @media (min-width: 992px) {
+
+	.header {
+		background: url('../images/3.jpg') center center no-repeat;
+		background-size: cover;
+	}
+
+	.ex-header {
+		background: url('../images/3.jpg') center center no-repeat;
+		background-size: cover;
+	}
 	
+
+	.ex-header2 {
+		background: url('../images/3.jpg') center center no-repeat;
+		background-size: cover;
+	}
 	/* Navigation */
 	.navbar-custom {
 		padding: 2.125rem 1.5rem 2.125rem 2rem;
@@ -1805,11 +1900,7 @@ a:hover.back-to-top {
 		opacity: 0.8;
 	}
 	
-	.navbar-custom .nav-item .nav-link:hover,
-	.navbar-custom .nav-item .nav-link.active {
-		color: #fff;
-		opacity: 1;
-	}
+	
 
 	.navbar-custom.top-nav-collapse {
         padding: 0.5rem 1.5rem 0.5rem 2rem;
@@ -1904,7 +1995,7 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header {
-		background: url('../images/header-background.jpg') center center no-repeat;
+		background: url('../images/3.jpg') center center no-repeat;
 		background-size: cover; 
 	}
 
@@ -2036,11 +2127,22 @@ a:hover.back-to-top {
 
 	/* Extra Pages */
 	.ex-header {
-		background: url('../images/ex-header-background.jpg') center center no-repeat;
+		background: url('../images/3.jpg') center center no-repeat;
+		background-size: cover;
+	}
+
+	.ex-header2 {
+		background: url('../images/3.jpg') center center no-repeat;
 		background-size: cover;
 	}
 
 	.ex-header h1 {
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.ex-header2 h1 {
 		width: 80%;
 		margin-right: auto;
 		margin-left: auto;
@@ -2060,6 +2162,21 @@ a:hover.back-to-top {
 
 /* Min-width width 1200px */
 @media (min-width: 1200px) {
+
+	.header {
+		background: url('../images/3.jpg') center center no-repeat;
+		background-size: cover;
+	}
+
+	.ex-header2 {
+		background: url('../images/3.jpg') center center no-repeat;
+		background-size: cover;
+	}
+
+	.ex-header {
+		background: url('../images/3.jpg') center center no-repeat;
+		background-size: cover;
+	}
 	
 	/* Navigation */
 	.navbar-custom {
@@ -2215,6 +2332,12 @@ a:hover.back-to-top {
 
 	/* Extra Pages */
 	.ex-header h1 {
+		width: 60%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.ex-header2 h1 {
 		width: 60%;
 		margin-right: auto;
 		margin-left: auto;
