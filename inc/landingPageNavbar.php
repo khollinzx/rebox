@@ -36,7 +36,7 @@
                 <li class="nav-item">
                     <a class="nav-link page-scroll <?php if ($linkTitle == "calculator") {
                                                         echo "live";
-                                                    } ?>" href="<?php echo BASE_URL; ?>calculator.php">Contact Us</a>
+                                                    } ?>" href="<?php echo BASE_URL; ?>calculator.php">Calculator</a>
                 </li>
             </ul>
             <div>
