@@ -33,6 +33,11 @@
                                                         echo "live";
                                                     } ?>" href="<?php echo BASE_URL; ?>contact-us.php">Contact Us</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll <?php if ($linkTitle == "calculator") {
+                                                        echo "live";
+                                                    } ?>" href="<?php echo BASE_URL; ?>calculator.php">Contact Us</a>
+                </li>
             </ul>
             <div>
                 <a class="page-scroll btn-solid-reg mr-3 mb-3" href="<?php echo BASE_URL; ?>login.php"> LOGIN</a>
