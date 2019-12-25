@@ -22,7 +22,9 @@
     <title><?php echo $pageTitle; ?></title>
 
     <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet"> -->
     <link href="<?php echo BASE_URL; ?>assets/css/bootstrap.css" rel="stylesheet">
     <link href="<?php echo BASE_URL; ?>assets/css/fontawesome-all.css" rel="stylesheet">
     <link href="<?php echo BASE_URL; ?>assets/css/swiper.css" rel="stylesheet">
@@ -36,6 +38,7 @@
     <!-- Scripts -->
     <script src="<?php echo BASE_URL; ?>assets/js/jquery.js"></script>
     <script src="<?php echo BASE_URL; ?>assets/js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="https://kit.fontawesome.com/63ddb44f72.js" crossorigin="anonymous"></script>
     <script src="<?php echo BASE_URL; ?>assets/js/bootstrap.js"></script>
     <script src="<?php echo BASE_URL; ?>assets/js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
     <script src="<?php echo BASE_URL; ?>assets/js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->

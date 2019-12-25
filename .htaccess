@@ -1,6 +1,6 @@
-RewriteEngine On
+RewriteEngine on
 RewriteRule ^home/$ /index.php
-RewriteRule ^aboutUs/$ /about-us.php
-RewriteRule ^contactUs/$ /contact-us.php
-RewriteRule ^login/$ /login.php
-RewriteRule ^register/$ /signup.php
+RewriteRule ^abt/$ /about.php
+RewriteRule ^cot/$ /contact.php
+RewriteRule ^proceed/$ /login.php
+RewriteRule ^new/$ /signup.php
