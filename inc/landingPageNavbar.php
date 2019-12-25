@@ -21,27 +21,22 @@
                 <li class="nav-item">
                     <a class="nav-link page-scroll <?php if ($linkTitle == "home") {
                                                         echo "live";
-                                                    } ?>" href="<?php echo BASE_URL; ?>index.php">Home <span class="sr-only">(current)</span></a>
+                                                    } ?>" href="<?php echo BASE_URL; ?>home/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll <?php if ($linkTitle == "about") {
                                                         echo "live";
-                                                    } ?>" href="<?php echo BASE_URL; ?>about-us.php">About Us</a>
+                                                    } ?>" href="<?php echo BASE_URL; ?>abt/">About Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll <?php if ($linkTitle == "contact") {
                                                         echo "live";
-                                                    } ?>" href="<?php echo BASE_URL; ?>contact-us.php">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll <?php if ($linkTitle == "calculator") {
-                                                        echo "live";
-                                                    } ?>" href="<?php echo BASE_URL; ?>calculator.php">Calculator</a>
+                                                    } ?>" href="<?php echo BASE_URL; ?>cot/">Contact Us</a>
                 </li>
             </ul>
             <div>
-                <a class="page-scroll btn-solid-reg mr-3 mb-3" href="<?php echo BASE_URL; ?>login.php"> LOGIN</a>
-                <a class="page-scroll btn-solid-reg mr-3 mb-3" href="<?php echo BASE_URL; ?>signup.php"> SIGN UP</a>
+                <a class="page-scroll btn-solid-reg mr-3 mb-3" href="<?php echo BASE_URL; ?>proceed/"> LOGIN</a>
+                <a class="page-scroll btn-solid-reg mr-3 mb-3" href="<?php echo BASE_URL; ?>new/"> SIGN UP</a>
             </div>
         </div>
     </div>

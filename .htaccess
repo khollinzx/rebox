@@ -4,3 +4,4 @@ RewriteRule ^abt/$ /about.php
 RewriteRule ^cot/$ /contact.php
 RewriteRule ^proceed/$ /login.php
 RewriteRule ^new/$ /signup.php
+RewriteRule ^calculator/$ /calculator.php
