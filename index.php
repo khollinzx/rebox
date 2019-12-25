@@ -129,7 +129,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
 
 
 <!-- Details 2 -->
-<div class="cards-2">
+<div class="basic-2">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
