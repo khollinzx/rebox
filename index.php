@@ -138,18 +138,18 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                     <p>We make investment Accessible/ Inclusive by giving you the BEST investment optionfrom every sector.</p>
                     <ul class="list-unstyled li-space-lg indent">
                         <li class="media">
-                            <i class="fas fa-check"></i>
+                            <i class="fas fa-"></i>
                             <div class="media-body">You can own local shares, trust funds, finance project, trade forex all with this tiny box</div>
                         </li>
                         <li class="media">
-                            <i class="fas fa-check"></i>
+                            <i class="fas fa-"></i>
                             <div class="media-body">Invest directly into Africa from anywhere in the world</div>
                         <li class="media">
-                            <i class="fas fa-check"></i>
+                            <i class="fas fa-"></i>
                             <div class="media-body">Never miss a new opportunity to invest and make money</div>
                         </li>
                         <li class="media">
-                            <i class="fas fa-check"></i>
+                            <i class="fas fa-"></i>
                             <div class="media-body">Wether you have short term investment place or long term, Rebox got you covered</div>
                         </li>
                     </ul>
