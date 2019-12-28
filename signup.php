@@ -51,7 +51,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                         <button type="submit" class="form-control-submit-button">SIGN UP</button>
                     </div>
                     <div class="form-group">
-                        <a href="<?php BASE_URL; ?>login.php" class="btn-solid-reg ">ALREADY HAVE AN ACCOUNT</a>
+                        <a href="<?php echo BASE_URL; ?>proceed/" class="btn-solid-reg ">ALREADY HAVE AN ACCOUNT</a>
                     </div>
                     <div class="form-message">
                         <div id="rmsgSubmit" class="h3 text-center hidden"></div>
