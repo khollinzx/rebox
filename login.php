@@ -50,6 +50,6 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
     </div> <!-- end of container -->
 </div>
 
-<script src="models/views/landingPage.js"></script>
+<script src="<?php BASE_URL; ?>models/views/landingPage.js"></script>
 <?php
 include(ROOT_PATH . 'inc/landingPagefooter.php'); ?>
