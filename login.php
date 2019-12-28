@@ -31,8 +31,8 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                     <div class="input-group mb-2">
                         <input type="password" class="form-control-input" id="password" name="password" required="" placeholder="Password">
                         <span class="input-group-btn">
-                            <button id="show-password" type="button" class="btn btn-default"> <i style="color: #01bfd9;" class="fas fa-eye"></i></button>
-                            <button id="hide-password" type="button" class="btn btn-default"> <i style="color: #01bfd9;" class="fas fa-eye-slash"></i></button>
+                            <button id="show-password" type="button" class="btn btn-default"> <i style="color: #008eda;" class="fa fa-eye"></i></button>
+                            <button id="hide-password" type="button" class="btn btn-default"> <i style="color: #008eda;" class="fa fa-eye-slash"></i></button>
                         </span>
                     </div>
                     <br>
