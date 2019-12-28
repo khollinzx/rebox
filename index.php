@@ -137,7 +137,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                     <h3>WHY INVEST IN US, EUROPE WHEN THE NEXT BIG MARKET IS HERE</h3>
                     <p>We make investment Accessible/ Inclusive by giving you the BEST investment optionfrom every sector.</p>
                     <ul class="list-unstyled li-space-lg indent">
-                        <li class="media text-center">
+                        <li class="media">
                             <i class="fas fa-check"></i>
                             <div class="media-body">You can own local shares, trust funds, finance project, trade forex all with this tiny box</div>
                         </li>
