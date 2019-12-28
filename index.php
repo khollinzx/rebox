@@ -21,7 +21,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                         <h1 style="text-align: center;color: #fff"><span class="turquoise">Rebox.Ng</span> is a centralized investment platform that make all investment option readily available for you</h1>
                         <p class="p-large" style="font-size: 18px; color: #fff;text-align: center;">With as little as <b>N</b>1000, <i class="fas fa-dollar-sign"></i>20, 50<i class="fas fa-euro-sign"></i>, 50<i class="fas fa-pound-sign"></i> you could own shares, money market instrucment, or even part of a project to be executed.</p>
                         <div class="text-center">
-                            <a href="<?php echo BASE_URL; ?>login.php" class=" page-scroll btn-solid-reg mr-3 mb-3"> SIGN UP TO GET STARTED <i class="fa fa-right-arrow"></i> </a>
+                            <a href="<?php echo BASE_URL; ?>proceed/" class=" page-scroll btn-solid-reg mr-3 mb-3"> SIGN UP TO GET STARTED <i class="fa fa-right-arrow"></i> </a>
                         </div>
                         <p style="color:#fff;" class="testimonial-text">"<b>AFRICA</b> will define the future" - <b>Twitter</b> Chief Executive Jack Dorsey.</p>
                     </div> <!-- end of text-container -->
