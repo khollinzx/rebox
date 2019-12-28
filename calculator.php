@@ -23,7 +23,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
             </div> <!-- end of col -->
             <div class="col-md-8">
                 <h2 style="color:#008eda">Calculator</h2>
-                <div class="calconic-calculator" data-calculatorid="5dfa175f99c242001ec80421"></div>
+                <div class="calconic-calculator" data-calculatorid="5dfac52aba9c57001e46120d"></div>
             </div> <!-- end of col -->
             <div class="col-md-2">
             </div> <!-- end of col -->
