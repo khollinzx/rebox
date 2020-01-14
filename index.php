@@ -162,43 +162,97 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
 
 <div class="cards-1">
     <div class="container">
-    </div> <!-- end of row -->
-    <div class="row">
-        <div class="col-lg-12">
+        <!-- end of row -->
+        <div class="row">
+            <div class="col-lg-12">
 
-            <!-- Card -->
-            <div class="card">
-                <img class="card-image" src="images/services-icon-1.svg" alt="alternative">
-                <div class="card-body">
-                    <h4 class="card-title">Security</h4>
-                    <p>Our team of enthusiastic marketers will analyse and evaluate how your company stacks against the closest competitors</p>
+                <!-- Card -->
+                <div class="card">
+                    <img class="card-image" src="<?php echo BASE_URL; ?>assets/images/padlock.svg" alt="alternative">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h3>Privacy</h3>
+                        </div>
+                        <hr class="cell-divide-hr">
+                        <div>
+                            <p>Your security is our No. 1 priority. We always have your security in mind so be Rest assured knowing your data is protected according to the standards.
+                            </p>
+                            <br>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <!-- end of card -->
+                <!-- end of card -->
 
-            <!-- Card -->
-            <div class="card">
-                <img class="card-image" src="images/services-icon-2.svg" alt="alternative">
-                <div class="card-body">
-                    <h4 class="card-title">Service</h4>
-                    <p>Once the market analysis process is completed our staff will search for opportunities that are in reach</p>
+                <!-- Card -->
+                <div class="card">
+                    <img class="card-image" src="<?php echo BASE_URL; ?>assets/images/services.svg" alt="alternative">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h3>Services</h3>
+                        </div>
+                        <hr class="cell-divide-hr">
+                        <div>
+                            <p>View all your investments on Rebox purchase Additional investment get diverse investments options with the best rates fast track investment purchase timely liquidation process 24 hrs customer service.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <!-- end of card -->
+                <!-- end of card -->
 
-            <!-- Card -->
-            <div class="card">
-                <img class="card-image" src="images/services-icon-3.svg" alt="alternative">
-                <div class="card-body">
-                    <h4 class="card-title">Products</h4>
-                    <p>With all the information in place you will be presented with an action plan that your company needs to follow</p>
+                <!-- Card -->
+                <div class="card">
+                    <img class="card-image" src="<?php echo BASE_URL; ?>assets/images/security.svg" alt="alternative">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h3>Security</h3>
+                        </div>
+                        <hr class="cell-divide-hr">
+                        <div>
+                            <p>Your funds are safe and sound, kept in segregated bank accounts and protected by industry-leading security protocols.
+                            </p>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <!-- end of card -->
+                <!-- end of card -->
 
-        </div> <!-- end of col -->
-    </div> <!-- end of row -->
-</div> <!-- end of container -->
+
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+
+    </div> <!-- end of container -->
+</div>
+
+<div class="cards-1">
+    <div class="container">
+        <!-- end of row -->
+        <div class="row">
+            <div class="col-lg-12">
+
+
+
+                <!-- Card -->
+                <div class="card">
+                    <img class="card-image" src="<?php echo BASE_URL; ?>assets/images/handshake.svg" alt="alternative">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h3>Trust</h3>
+                        </div>
+                        <hr class="cell-divide-hr">
+                        <div>
+                            <p>Rebox is fully compliant with all regulations and your funds are in safe hands with backing from regulated top financial institutions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of card -->
+
+
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+
+    </div> <!-- end of container -->
 </div>
 
 

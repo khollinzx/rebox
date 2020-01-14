@@ -21,22 +21,22 @@
                 <li class="nav-item">
                     <a class="nav-link page-scroll <?php if ($linkTitle == "home") {
                                                         echo "live";
-                                                    } ?>" href="<?php echo BASE_URL; ?>home/">Home <span class="sr-only">(current)</span></a>
+                                                    } ?>" href="<?php echo BASE_URL; ?>home/">HOME <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll <?php if ($linkTitle == "about") {
                                                         echo "live";
-                                                    } ?>" href="<?php echo BASE_URL; ?>abt/">About Us</a>
+                                                    } ?>" href="<?php echo BASE_URL; ?>abt/">ABOUT US</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll <?php if ($linkTitle == "contact") {
                                                         echo "live";
-                                                    } ?>" href="<?php echo BASE_URL; ?>cot/">Contact Us</a>
+                                                    } ?>" href="<?php echo BASE_URL; ?>cot/">CONTACT US</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll <?php if ($linkTitle == "calculator") {
                                                         echo "live";
-                                                    } ?>" href="<?php echo BASE_URL; ?>calculator/">Calculator</a>
+                                                    } ?>" href="<?php echo BASE_URL; ?>calculator/">CALCULATOR</a>
                 </li>
             </ul>
             <div>

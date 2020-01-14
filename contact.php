@@ -26,14 +26,16 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
 <div id="services" class="cards-1">
     <div class="container">
         <div class="row">
-            <div class="col-md-2">
-            </div> <!-- end of col -->
+
+
+
+
             <div class="col-md-8">
                 <h2>Contact Information</h2>
                 <ul class="list-unstyled li-space-lg">
                     <li class="address">Don't hesitate to give us a call or send us a contact form message</li>
-                    <li><i class="fas fa-map-marker-alt"></i> 22 Innovative Area, San Francisco, CA 94043, US</li>
-                    <li><i class="fas fa-phone"></i> <a class="turquoise" href="tel:"> +234 814 689 6744 </a></li>
+                    <li><i class="fas fa-map-marker-alt"></i> 14 Allen Avenue, Centage Plaza Ikeja, Lagos, Nigeria.</li>
+                    <li><i class="fas fa-phone"></i> <a class="turquoise" href="tel:"> +234 815 689 6744 </a></li>
                     <li><i class="fas fa-envelope"></i> <a class="turquoise" href="mailto:office@evolo.com"> crowdrebox@gmail.com</a></li>
                 </ul>
                 <form id="contactForm" data-toggle="validator" data-focus="false" novalidate="true">
