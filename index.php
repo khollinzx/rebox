@@ -40,6 +40,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2>INVEST WITH CONFIDENCE IN AFRICA'S BIGGEST FINANCIAL MARKET</h2>
+                <h4>With expert information and helpful tool to answer your immediate investment needs</h4>
                 <p>GET ACCESS AND EASILY COMPARE INVESTMENT OPTION IN.</p>
             </div> <!-- end of col -->
         </div> <!-- end of row -->
@@ -109,6 +110,27 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                     </li>
                 </ul>
             </div> <!-- end of col -->
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h4>We make investment Accessible/ Inclusive by giving you the BEST investment option from every sector.</h4>
+                </div> <!-- end of col -->
+                <div class="col-lg-12">
+                    <ul class="list-unstyled li-space-lg ">
+                        <li class="media text-center">
+                            <div class="media-body">You can own local shares, trust funds, finance project, trade forex all with this tiny box.</div>
+                        </li>
+                        <li class="media text-center">
+                            <div class="media-body">Invest directly into Africa from anywhere in the world.</div>
+                        <li class="media text-center">
+                            <div class="media-body">Never miss a new opportunity to invest and make money.</div>
+                        </li>
+                        <li class="media text-center">
+                            <div class="media-body">Whether you have short term investment place or long term, Rebox got you covered.</div>
+                        </li>
+                    </ul>
+                </div>
+            </div> <!-- end of row -->
         </div> <!-- end of row -->
     </div> <!-- end of container -->
 </div>
@@ -119,7 +141,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
         <div class="row">
             <div class="col-lg-12">
                 <div class="image-container">
-                    <img class="img-fluid slide_up" src="<?php echo BASE_URL; ?>assets/images/Investment.png" alt="alternative">
+                    <img class="img-fluid slide_up" src="<?php echo BASE_URL; ?>assets/images/macbook.png" alt="alternative">
                 </div> <!-- end of image-container -->
             </div>
         </div> <!-- end of col -->
@@ -127,38 +149,6 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
 </div> <!-- end of basic-1 -->
 <!-- end of details 1 -->
 
-
-<!-- Details 2 -->
-<div class="basic-2">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="text-container text-center">
-                    <h3>WHY INVEST IN US, EUROPE WHEN THE NEXT BIG MARKET IS HERE</h3>
-                    <p>We make investment Accessible/ Inclusive by giving you the BEST investment optionfrom every sector.</p>
-                    <ul class="list-unstyled li-space-lg indent">
-                        <li class="media">
-                            <i class="fas fa-"></i>
-                            <div class="media-body">You can own local shares, trust funds, finance project, trade forex all with this tiny box</div>
-                        </li>
-                        <li class="media">
-                            <i class="fas fa-"></i>
-                            <div class="media-body">Invest directly into Africa from anywhere in the world</div>
-                        <li class="media">
-                            <i class="fas fa-"></i>
-                            <div class="media-body">Never miss a new opportunity to invest and make money</div>
-                        </li>
-                        <li class="media">
-                            <i class="fas fa-"></i>
-                            <div class="media-body">Wether you have short term investment place or long term, Rebox got you covered</div>
-                        </li>
-                    </ul>
-                </div> <!-- end of text-container -->
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of container -->
-</div> <!-- end of basic-2 -->
-<!-- end of details 2 -->
 
 <div class="cards-1">
     <div class="container">
@@ -217,13 +207,10 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                 </div>
                 <!-- end of card -->
 
-
             </div> <!-- end of col -->
         </div> <!-- end of row -->
         <div class="row">
             <div class="col-lg-12">
-
-
 
                 <!-- Card -->
                 <div class="card">
