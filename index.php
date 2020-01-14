@@ -220,13 +220,6 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
 
             </div> <!-- end of col -->
         </div> <!-- end of row -->
-
-    </div> <!-- end of container -->
-</div>
-
-<div class="cards-1">
-    <div class="container">
-        <!-- end of row -->
         <div class="row">
             <div class="col-lg-12">
 
