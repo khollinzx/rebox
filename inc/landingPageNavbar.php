@@ -1,49 +1,41 @@
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-    <!-- Text Logo - Use this if you don't have a graphic logo -->
-    <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Evolo</a> -->
+<!--header section start-->
+<header class="header">
+    <!--start navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="index-2.html"><img src="<?php echo BASE_URL; ?>assets/img/Asset 7.png" width="120" alt="logo" class="img-fluid"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="ti-menu"></span>
+            </button>
 
-    <!-- Image Logo -->
-    <a class="navbar-brand logo-image" href="index.html"><img src="<?php echo BASE_URL; ?>assets/images/logo.svg" alt="alternative"></a>
+            <div class="collapse navbar-collapse main-menu" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link page-scroll <?php if ($linkTitle == 'home') {
+                                                            echo 'active';
+                                                        } ?>" href="<?php echo BASE_URL; ?>home/">Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll <?php if ($linkTitle == 'calculator') {
+                                                            echo 'active';
+                                                        } ?>" href="<?php echo BASE_URL; ?>calculator/"> Calculator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll <?php if ($linkTitle == 'login') {
+                                                            echo 'active';
+                                                        } ?>" href="<?php echo BASE_URL; ?>proceed/">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll <?php if ($linkTitle == 'signup') {
+                                                            echo 'active';
+                                                        } ?>" href="<?php echo BASE_URL; ?>create/">Sign Up</a>
+                    </li>
 
-
-    <!-- Mobile Menu Toggle Button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span id="menus" class="navbar-toggler-awesome fas fa-bars"></span>
-        <span id="close-menus" class="navbar-toggler-awesome fas fa-times"></span>
-    </button>
-    <!-- end of mobile menu toggle button -->
-
-    <div class="collapse navbar-collapse " id="navbarsExampleDefault">
-
-        <div class="navbar-nav ml-auto">
-            <ul class="navbar-nav mt-3 ml-aut mr-3">
-                <li class="nav-item">
-                    <a class="nav-link page-scroll <?php if ($linkTitle == "home") {
-                                                        echo "live";
-                                                    } ?>" href="<?php echo BASE_URL; ?>home/">HOME <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll <?php if ($linkTitle == "about") {
-                                                        echo "live";
-                                                    } ?>" href="<?php echo BASE_URL; ?>abt/">ABOUT US</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll <?php if ($linkTitle == "contact") {
-                                                        echo "live";
-                                                    } ?>" href="<?php echo BASE_URL; ?>cot/">CONTACT US</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll <?php if ($linkTitle == "calculator") {
-                                                        echo "live";
-                                                    } ?>" href="<?php echo BASE_URL; ?>calculator/">CALCULATOR</a>
-                </li>
-            </ul>
-            <div>
-                <a class="page-scroll btn-solid-reg mr-3 mb-3" href="<?php echo BASE_URL; ?>proceed/"> LOGIN</a>
-                <a class="page-scroll btn-solid-reg mr-3 mb-3" href="<?php echo BASE_URL; ?>new/"> SIGN UP</a>
+                </ul>
             </div>
         </div>
-    </div>
-</nav> <!-- end of navbar -->
-<!-- end of navigation -->
+    </nav>
+    <!--end navbar-->
+</header>
+<!--header section end-->

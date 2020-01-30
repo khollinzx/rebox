@@ -10,28 +10,57 @@ include(ROOT_PATH . 'inc/landingPageheader.php');
 
 include(ROOT_PATH . 'inc/landingPageNavbar.php');
 ?>
-<!-- Header -->
-<header id="header" class="ex-header2">
-</header> <!-- end of ex-header -->
-<!-- end of header -->
 
-<!-- Privacy Content -->
-<div id="services" class="cards-1">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-2">
-            </div> <!-- end of col -->
-            <div class="col-md-8">
-                <h2 style="color:#008eda">Calculator</h2>
-                <div class="calconic-calculator" data-calculatorid="5dfac52aba9c57001e46120d"></div>
-            </div> <!-- end of col -->
-            <div class="col-md-2">
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of container -->
+
+<!--body content wrap start-->
+<div class="main">
+
+    <!--hero section start-->
+    <section class="hero-section ptb-100 background-img" style="background: url('img/hero-bg-1.jpg')no-repeat center center / cover">
+        <!-- <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-9 col-lg-7">
+                    <div class="page-header-content text-white text-center pt-sm-5 pt-md-5 pt-lg-0">
+                        <h1 class="text-white mb-0">FAQ Page</h1>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <!--hero section end-->
+
+    <!--promo section start-->
+    <section class="promo-section ptb-100">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="section-heading mb-5">
+                        <h2>Rebox Calculator</h2>
+                        <p class="lead">
+                            Quickly morph client-centric results through performance based applications. Proactively facilitate professional human capital for cutting-edge.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--pricing faq start-->
+            <div class="row">
+                <div class="col-md-2">
+                </div> <!-- end of col -->
+                <div class="col-md-8">
+                    <div class="calconic-calculator" data-calculatorid="5dfac52aba9c57001e46120d"></div>
+                </div> <!-- end of col -->
+                <div class="col-md-2">
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <!--pricing faq end-->
+        </div>
+    </section>
+    <!--promo section end-->
+
+
 </div>
+<!--body content wrap end-->
 
-<script src="models/views/landingPage.js"></script>
 <script>
     (function() {
         var qs, j, q, s, d = document,

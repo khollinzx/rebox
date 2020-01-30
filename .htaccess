@@ -1,7 +1,7 @@
 RewriteEngine on
-RewriteRule ^home/$ /index.php
-RewriteRule ^abt/$ /about.php
-RewriteRule ^cot/$ /contact.php
-RewriteRule ^proceed/$ /login.php
-RewriteRule ^new/$ /signup.php
-RewriteRule ^calculator/$ /calculator.php
+RewriteRule ^home/$ ./index.php
+RewriteRule ^AboutUs/$ ./about.php
+RewriteRule ^cot/$ ./contact.php
+RewriteRule ^proceed/$ ./login.php
+RewriteRule ^create/$ ./signup.php
+RewriteRule ^calculator/$ ./calculator.php

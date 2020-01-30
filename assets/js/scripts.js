@@ -1,349 +1,269 @@
-/* Template: Evolo - StartUp HTML Landing Page Template
-   Author: Inovatik
-   Created: June 2019
-   Description: Custom JS file
-*/
+/*================
+ Template Name: AppCo App Landing Page Template
+ Description: AppCo is app and product landing page template.
+ Version: 1.0
+ Author: https://themeforest.net/user/themetags
+=======================*/
+
+// TABLE OF CONTENTS
+// 1. fixed navbar
+// 2. page scrolling feature - requires jQuery Easing plugin
+// 3. closes the responsive menu on menu item click
+// 4. magnify popup video
+// 5. client testimonial slider
+// 6. Screenshots slider
+// 7. custom counter js with scrolling
+// 8. client-testimonial one item carousel
+// 9. our clients logo carousel
+// 10. our clients logo carousel
+// 11. wow js
 
 
-(function($) {
-    "use strict"; 
-	
-	/* Preloader */
-	$(window).on('load', function() {
-		var preloaderFadeOutTime = 500;
-		function hidePreloader() {
-			var preloader = $('.spinner-wrapper');
-			setTimeout(function() {
-				preloader.fadeOut(preloaderFadeOutTime);
-			}, 500);
-		}
-		hidePreloader();
-	});
+jQuery(function ($) {
 
-	
-	/* Navbar Scripts */
-	// jQuery to collapse the navbar on scroll
-    $(window).on('scroll load', function() {
-		if ($(".navbar").offset().top > 60) {
-			$(".fixed-top").addClass("top-nav-collapse");
-		} else {
-			$(".fixed-top").removeClass("top-nav-collapse");
-		}
-    });
-
-	// jQuery for page scrolling feature - requires jQuery Easing plugin
-	$(function() {
-		$(document).on('click', 'a.page-scroll', function(event) {
-			var $anchor = $(this);
-			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top
-			}, 600, 'easeInOutExpo');
-			event.preventDefault();
-		});
-	});
-
-    // closes the responsive menu on menu item click
-    $(".navbar-nav li a").on("click", function(event) {
-    if (!$(this).parent().hasClass('dropdown'))
-        $(".navbar-collapse").collapse('hide');
-    });
-
-
-    /* Image Slider - Swiper */
-    var imageSlider = new Swiper('.image-slider', {
-        autoplay: {
-            delay: 2000,
-            disableOnInteraction: false
-		},
-        loop: true,
-        spaceBetween: 30,
-        slidesPerView: 5,
-		breakpoints: {
-            // when window is <= 580px
-            580: {
-                slidesPerView: 1,
-                spaceBetween: 10
-            },
-            // when window is <= 768px
-            768: {
-                slidesPerView: 2,
-                spaceBetween: 20
-            },
-            // when window is <= 992px
-            992: {
-                slidesPerView: 3,
-                spaceBetween: 20
-            },
-            // when window is <= 1200px
-            1200: {
-                slidesPerView: 4,
-                spaceBetween: 20
-            },
-
+    'use strict';
+    // 1. fixed navbar
+    $(window).on( 'scroll', function () {
+        // checks if window is scrolled more than 500px, adds/removes solid class
+        if ($(this).scrollTop() > 60) {
+            $('.navbar').addClass('affix');
+        } else {
+            $('.navbar').removeClass('affix');
         }
     });
 
 
-    /* Card Slider - Swiper */
-	var cardSlider = new Swiper('.card-slider', {
-		autoplay: {
-            delay: 4000,
-            disableOnInteraction: false
-		},
-        loop: true,
-        navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev'
-		}
+    // 2. page scrolling feature - requires jQuery Easing plugin
+    $(function() {
+        $(document).on('click', 'a.page-scroll', function(event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top-60
+            }, 900, 'easeInOutExpo');
+            event.preventDefault();
+        });
     });
-    
 
-    /* Video Lightbox - Magnific Popup */
-    $('.popup-youtube, .popup-vimeo').magnificPopup({
+    // 3. closes the responsive menu on menu item click
+    $(".navbar-nav li a").on("click", function(event) {
+        if (!$(this).parent().hasClass('dropdown'))
+            $(".navbar-collapse").collapse('hide');
+    });
+
+    // 4. magnify popup video
+    $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
         disableOn: 700,
         type: 'iframe',
         mainClass: 'mfp-fade',
         removalDelay: 160,
         preloader: false,
-        fixedContentPos: false,
-        iframe: {
-            patterns: {
-                youtube: {
-                    index: 'youtube.com/', 
-                    id: function(url) {        
-                        var m = url.match(/[\\?\\&]v=([^\\?\\&]+)/);
-                        if ( !m || !m[1] ) return null;
-                        return m[1];
-                    },
-                    src: 'https://www.youtube.com/embed/%id%?autoplay=1'
-                },
-                vimeo: {
-                    index: 'vimeo.com/', 
-                    id: function(url) {        
-                        var m = url.match(/(https?:\/\/)?(www.)?(player.)?vimeo.com\/([a-z]*\/)*([0-9]{6,11})[?]?.*/);
-                        if ( !m || !m[5] ) return null;
-                        return m[5];
-                    },
-                    src: 'https://player.vimeo.com/video/%id%?autoplay=1'
-                }
+        fixedContentPos: false
+    });
+
+    // 5. client testimonial slider
+    $('.client-testimonial').owlCarousel({
+        loop:false,
+        margin:30,
+        items:1,
+        nav: true,
+        dots:false,
+        responsiveClass:true,
+        autoplay:false,
+        autoplayHoverPause:true,
+        lazyLoad:true,
+    })
+
+    // 6. Screenshots slider
+    $('.screen-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        center: true,
+        dots: true,
+        nav: false,
+        autoplay: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            768: {
+                items: 3
+            },
+            991: {
+                items: 4
+            },
+            1200: {
+                items: 4
+            },
+            1920: {
+                items: 4
             }
         }
     });
 
 
-    /* Lightbox - Magnific Popup */
-	$('.popup-with-move-anim').magnificPopup({
-		type: 'inline',
-		fixedContentPos: false, /* keep it false to avoid html tag shift with margin-right: 17px */
-		fixedBgPos: true,
-		overflowY: 'auto',
-		closeBtnInside: true,
-		preloader: false,
-		midClick: true,
-		removalDelay: 300,
-		mainClass: 'my-mfp-slide-bottom'
-	});
-    
-    
-    /* Move Form Fields Label When User Types */
-    // for input and textarea fields
-    $("input, textarea").keyup(function(){
-		if ($(this).val() != '') {
-			$(this).addClass('notEmpty');
-		} else {
-			$(this).removeClass('notEmpty');
-		}
-    });
-
-
-    /* Request Form */
-    $("#requestForm").validator().on("submit", function(event) {
-    	if (event.isDefaultPrevented()) {
-            // handle the invalid form...
-            rformError();
-            rsubmitMSG(false, "Please fill all fields!");
-        } else {
-            // everything looks good!
-            event.preventDefault();
-            rsubmitForm();
-        }
-    });
-
-    function rsubmitForm() {
-        // initiate variables with form content
-		var name = $("#rname").val();
-		var email = $("#remail").val();
-		var phone = $("#rphone").val();
-        var select = $("#rselect").val();
-        var terms = $("#rterms").val();
-        
-        $.ajax({
-            type: "POST",
-            url: "php/requestform-process.php",
-            data: "name=" + name + "&email=" + email + "&phone=" + phone + "&select=" + select + "&terms=" + terms, 
-            success: function(text) {
-                if (text == "success") {
-                    rformSuccess();
-                } else {
-                    rformError();
-                    rsubmitMSG(false, text);
+    // 7. custom counter js with scrolling
+    var isFirstTime = true;
+    var interval = null;
+    var countSelector = $('.single-counter > span, .single-card > h3');
+    if(countSelector.length) {
+        var startingTop = countSelector.offset().top - window.innerHeight;
+        if(startingTop > 0) {
+            $(window).on( 'scroll', function() {
+                if (isFirstTime && $(window).scrollTop() > startingTop) {
+                    startCounting();
+                    isFirstTime = false;
                 }
+            });
+        } else{
+            startCounting();
+        }
+    }
+
+    /**
+     * Get the increment value
+     * @param value
+     * @returns {number}
+     */
+    function incrementValue(value) {
+        var incVal = 0;
+        if(Math.ceil(value / 2) <= 5){ // upto 10
+            incVal = 1;
+        }
+        else if(Math.ceil(value / 10) <= 10) { // up to 100
+            incVal = 10;
+        }
+        else if(Math.ceil(value / 100) <= 10) { // up to 1000
+            incVal = 25;
+        }
+        else if(Math.ceil(value / 100) <= 100) { // up to 10000
+            incVal = 50;
+        }
+        else if(Math.ceil(value / 1000) <= 100) { // up to 100000
+            incVal = 150;
+        }
+        else {
+            incVal = 500;
+        }
+        return incVal;
+    }
+
+    /**
+     * To start count
+     * @param counters all selectors
+     * @param start int
+     * @param value int
+     * @param id int
+     */
+    function count(counters, start, value, id) {
+        var localStart = start;
+        var inc = incrementValue(value);
+        interval = setInterval(function() {
+            if (localStart < value) {
+                localStart = localStart+inc;
+                counters[id].innerHTML = localStart;
             }
-        });
-	}
-
-    function rformSuccess() {
-        $("#requestForm")[0].reset();
-        rsubmitMSG(true, "Request Submitted!");
-        $("input").removeClass('notEmpty'); // resets the field label after submission
+        }, 40);
     }
 
-    function rformError() {
-        $("#requestForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-            $(this).removeClass();
-        });
-	}
+    /**
+     * Start the count
+     */
+    function startCounting() {
+        var counters = $(".single-counter > span, .single-card > h3");
+        var countersQuantity = counters.length;
+        var counter = [];
 
-    function rsubmitMSG(valid, msg) {
-        if (valid) {
-            var msgClasses = "h3 text-center tada animated";
-        } else {
-            var msgClasses = "h3 text-center";
+        // get al counts from HTML count
+        for (var i = 0; i < countersQuantity; i++) {
+            counter[i] = parseInt(counters[i].innerHTML);
         }
-        $("#rmsgSubmit").removeClass().addClass(msgClasses).text(msg);
+
+        // calling all count function
+        for (var j = 0; j < countersQuantity; j++) {
+            count(counters, 0, counter[j], j);
+        }
     }
-    
 
-    /* Contact Form */
-    $("#contactForm").validator().on("submit", function(event) {
-    	if (event.isDefaultPrevented()) {
-            // handle the invalid form...
-            cformError();
-            csubmitMSG(false, "Please fill all fields!");
-        } else {
-            // everything looks good!
-            event.preventDefault();
-            csubmitForm();
-        }
-    });
+    // 8. client-testimonial one item carousel
+    $('.client-testimonial-1').owlCarousel({
+        loop:true,
+        margin:30,
+        nav: false,
+        responsiveClass:true,
+        autoplay:true,
+        autoplayHoverPause:true,
+        lazyLoad:true,
+        items:1,
+    })
 
-    function csubmitForm() {
-        // initiate variables with form content
-		var name = $("#cname").val();
-		var email = $("#cemail").val();
-        var message = $("#cmessage").val();
-        var terms = $("#cterms").val();
-        $.ajax({
-            type: "POST",
-            url: "php/contactform-process.php",
-            data: "name=" + name + "&email=" + email + "&message=" + message + "&terms=" + terms, 
-            success: function(text) {
-                if (text == "success") {
-                    cformSuccess();
-                } else {
-                    cformError();
-                    csubmitMSG(false, text);
-                }
+    // 9. our clients logo carousel
+    $('.clients-carousel').owlCarousel({
+        autoplay: true,
+        loop: true,
+        margin:15,
+        dots:true,
+        slideTransition:'linear',
+        autoplayTimeout:4500,
+        autoplayHoverPause:true,
+        autoplaySpeed:4500,
+        responsive:{
+            0:{
+                items:2
+            },
+            500: {
+                items:3
+            },
+            600:{
+                items:4
+            },
+            800:{
+                items:5
+            },
+            1200:{
+                items:6
             }
-        });
-	}
 
-    function cformSuccess() {
-        $("#contactForm")[0].reset();
-        csubmitMSG(true, "Message Submitted!");
-        $("input").removeClass('notEmpty'); // resets the field label after submission
-        $("textarea").removeClass('notEmpty'); // resets the field label after submission
-    }
-
-    function cformError() {
-        $("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-            $(this).removeClass();
-        });
-	}
-
-    function csubmitMSG(valid, msg) {
-        if (valid) {
-            var msgClasses = "h3 text-center tada animated";
-        } else {
-            var msgClasses = "h3 text-center";
         }
-        $("#cmsgSubmit").removeClass().addClass(msgClasses).text(msg);
-    }
+    })
 
-
-    /* Privacy Form */
-    $("#privacyForm").validator().on("submit", function(event) {
-    	if (event.isDefaultPrevented()) {
-            // handle the invalid form...
-            pformError();
-            psubmitMSG(false, "Please fill all fields!");
-        } else {
-            // everything looks good!
-            event.preventDefault();
-            psubmitForm();
-        }
-    });
-
-    function psubmitForm() {
-        // initiate variables with form content
-		var name = $("#pname").val();
-		var email = $("#pemail").val();
-        var select = $("#pselect").val();
-        var terms = $("#pterms").val();
-        
-        $.ajax({
-            type: "POST",
-            url: "php/privacyform-process.php",
-            data: "name=" + name + "&email=" + email + "&select=" + select + "&terms=" + terms, 
-            success: function(text) {
-                if (text == "success") {
-                    pformSuccess();
-                } else {
-                    pformError();
-                    psubmitMSG(false, text);
-                }
-            }
-        });
-	}
-
-    function pformSuccess() {
-        $("#privacyForm")[0].reset();
-        psubmitMSG(true, "Request Submitted!");
-        $("input").removeClass('notEmpty'); // resets the field label after submission
-    }
-
-    function pformError() {
-        $("#privacyForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-            $(this).removeClass();
-        });
-	}
-
-    function psubmitMSG(valid, msg) {
-        if (valid) {
-            var msgClasses = "h3 text-center tada animated";
-        } else {
-            var msgClasses = "h3 text-center";
-        }
-        $("#pmsgSubmit").removeClass().addClass(msgClasses).text(msg);
-    }
-    
-
-    /* Back To Top Button */
-    // create the back to top button
-    $('body').prepend('<a href="body" class="back-to-top page-scroll">Back to Top</a>');
-    var amountScrolled = 700;
-    $(window).scroll(function() {
-        if ($(window).scrollTop() > amountScrolled) {
-            $('a.back-to-top').fadeIn('500');
-        } else {
-            $('a.back-to-top').fadeOut('500');
-        }
+    // 10. our clients logo carousel
+    $(document).ready(function(){
+        $(".player").YTPlayer();
     });
 
 
-	/* Removes Long Focus On Buttons */
-	$(".button, a, button").mouseup(function() {
-		$(this).blur();
-	});
+    // 11. wow js
+    function wowAnimation(){
+        new WOW({
+            offset: 100,
+            mobile: true
+        }).init()
+    }
+    wowAnimation()
 
-})(jQuery);
+
+  //countdown one
+
+  $('#clock').countdown('2022/01/30', function(event) {
+    $(this).html(event.strftime('' +
+      '<div class="row">' +
+      '<div class="col">' +
+      '<h2 class="mb-1">%-D</h2>' +
+      '<h5>Day%!d</h5>' +
+      '</div>' +
+      '<div class="col">' +
+      '<h2 class="mb-1">%H</h2>' +
+      '<h5>Hours</h5>' +
+      '</div>' +
+      '<div class="col">' +
+      '<h2 class="mb-1">%M</h2>' +
+      '<h5>Minutes</h5>' +
+      '</div>' +
+      '<div class="col">' +
+      '<h2 class="mb-1">%S</h2>' +
+      '<h5>Seconds</h5>' +
+      '</div>' +
+      '</div>'));
+  });
+
+}); // JQuery end
