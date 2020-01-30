@@ -31,8 +31,8 @@
                     <div class="footer-nav-wrap text-white">
                         <h5 class="mb-3 text-white">Others Links</h5>
                         <ul class="list-unstyled">
-                            <li class="mb-2"><a href="<?php echo BASE_URL;?>AboutUs/">About Us</a></li>
-                            <li class="mb-2"><a href="#">Contact Us</a></li>
+                            <li class="mb-2"><a href="<?php echo BASE_URL; ?>AboutUs/">About Us</a></li>
+                            <li class="mb-2"><a href="<?php echo BASE_URL; ?>ContactUs/">Contact Us</a></li>
                             <li class="mb-2"><a href="#">Privacy Policy</a></li>
                         </ul>
                     </div>
@@ -61,7 +61,7 @@
         <div class="container">
             <div class="row text-center justify-content-center">
                 <div class="col-md-6 col-lg-5">
-                    <p class="copyright-text pb-0 mb-0">Copyrights © <?php echo date('Y')?>. All
+                    <p class="copyright-text pb-0 mb-0">Copyrights © <?php echo date('Y') ?>. All
                         rights reserved by
                         <a href="#">Rebox.ng</a></p>
                 </div>
