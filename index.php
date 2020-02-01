@@ -20,7 +20,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-6 col-lg-6">
                     <div class="hero-content-left text-white mt-5">
-                        <h1 class="text-white" style="text-align:inherit"><span>Rebox</span> Makes investments Accessible By giving you the Best Investment options from diverse sector.</h1>
+                        <h3 class="text-white" style="text-align:inherit"><span>Rebox</span> Makes investments Accessible By giving you the Best Investment options from diverse sector.</h3>
                         <h3 style="color:#fff;" id="app">
                         </h3>
                         <p class="lead">With as little as <b>N</b>1000, <i class="fa fa-dollar"></i>20, 50<i class="fa fa-euro-sign"></i>, 50<i class="fa fa-pound-sign"></i> you could own shares, money market instrucment, or even part of a project to be executed.</p>
