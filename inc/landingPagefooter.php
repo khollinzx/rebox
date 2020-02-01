@@ -5,16 +5,11 @@
     <div class="footer-top pt-150 pb-5 background-img-2" style="background: url('<?php echo BASE_URL; ?>assets/img/footer-bg.png')no-repeat center top / cover">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <div class="footer-nav-wrap text-white">
-                        <img src="<?php echo BASE_URL; ?>assets/img/Asset 7.png" alt="footer logo" width="120" class="img-fluid mb-3">
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-between">
                 <div class="col-lg-5 mb-4 mb-lg-0">
                     <div class="footer-nav-wrap text-white">
-                        <h5 class="mb-3 text-white">Disclaimers</h5>
+                        <div class="footer-nav-wrap text-white">
+                            <img src="<?php echo BASE_URL; ?>assets/img/Asset 7.png" alt="footer logo" width="120" class="img-fluid mb-3">
+                        </div>
                         <p>Rebox is not a registered broker and we offer based on the registered brokers investment option or advice, investment involves risk, all accounts are traded with the registered broker which include forex.</p>
 
                         <div class="social-list-wrap">

@@ -86,7 +86,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                                 <span class="ti-wallet icon-md color-secondary"></span>
                             </div>
                             <div class="pt-2 pb-3">
-                                <h5>Financial Market</h5>
+                                <h5>Financial Project</h5>
                                 <p class="text-muted mb-0">Remain consistent while developing new features.</p>
                             </div>
                         </div>
@@ -156,7 +156,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                                 <span class="ti-receipt icon-md color-secondary"></span>
                             </div>
                             <div class="pt-2 pb-3">
-                                <h5>And more options</h5>
+                                <h5>Agriculture Project</h5>
                                 <p class="text-muted mb-0">Change a few variables and the whole theme adapts.</p>
                             </div>
                         </div>
@@ -348,7 +348,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
         loop: true
     });
 
-    typewriter.typeString('- You can own local shares.')
+    typewriter.typeString('You can own local shares.')
         .pauseFor(2500)
         .deleteChars(13)
         .typeString('trust funds.')
@@ -357,16 +357,16 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
         .typeString('finance project.')
         .pauseFor(2500)
         .deleteAll()
-        .typeString('- Perform Forex Trading all within this tiny box.')
+        .typeString('Perform Forex Trading all within this tiny box.')
         .pauseFor(2500)
         .deleteAll()
-        .typeString('- Invest directly into Africa from anywhere in the world.')
+        .typeString('Invest directly into Africa from anywhere in the world.')
         .pauseFor(2500)
         .deleteAll()
-        .typeString('- Never miss a new opportunity to invest and Earn')
+        .typeString('Never miss a new opportunity to invest and Earn')
         .pauseFor(2500)
         .deleteAll()
-        .typeString('- Whether you have short term investment plan or long time, rebox got you covered.')
+        .typeString('Whether you have short term investment plan or long time, rebox got you covered.')
         .pauseFor(2500)
         .deleteAll()
         .start();
