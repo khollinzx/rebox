@@ -156,7 +156,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                                 <span class="ti-receipt icon-md color-secondary"></span>
                             </div>
                             <div class="pt-2 pb-3">
-                                <h5>Agriculture Project</h5>
+                                <h5>Agricultural Project</h5>
                                 <p class="text-muted mb-0">Change a few variables and the whole theme adapts.</p>
                             </div>
                         </div>
