@@ -15,28 +15,29 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
 <div class="main">
 
     <!--hero section start-->
-    <section class="hero-section pt-100 background-img" style="background: url('<?php echo BASE_URL;?>assets/img/hero-bg-1.jpg')no-repeat center top / cover">
+    <section class="hero-section pt-100 background-img" style="background: url('<?php echo BASE_URL; ?>assets/img/hero-bg-1.jpg')no-repeat center top / cover">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-6 col-lg-6">
                     <div class="hero-content-left text-white mt-5">
                         <h3 class="text-white" style="text-align:inherit"><span>Rebox</span> Makes investments Accessible By giving you the Best Investment options from diverse sector.</h3>
+                        <br>
+                        <br>
                         <h3 style="color:#fff;" id="app">
                         </h3>
-                        <p class="lead">With as little as <b>N</b>1000, <i class="fa fa-dollar"></i>20, 50<i class="fa fa-euro-sign"></i>, 50<i class="fa fa-pound-sign"></i> you could own shares, money market instrucment, or even part of a project to be executed.</p>
 
                         <a href="<?php echo BASE_URL; ?>create/" class="btn app-store-btn">SIGN UP TO GET STARTED</a>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-5">
                     <div class="hero-animation-img">
-                        <img src="<?php echo BASE_URL;?>assets/img/image-14.png" alt="img" class="img-fluid">
+                        <img src="<?php echo BASE_URL; ?>assets/img/undraw_finance_0bdk.svg" alt="img" class="img-fluid">
                     </div>
                 </div>
             </div>
         </div>
-        <br/>
-        <br/>
+        <br />
+        <br />
     </section>
     <!--hero section end-->
 
