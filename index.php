@@ -31,7 +31,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                 </div>
                 <div class="col-md-4 col-lg-5">
                     <div class="hero-animation-img">
-                        <img src="<?php echo BASE_URL; ?>assets/img/undraw_finance_0bdk.svg" alt="img" width="100%" height="100%" class="img-fluid">
+                        <img src="<?php echo BASE_URL; ?>assets/img/undraw_finance_0bdk.svg" alt="img" width="150%" height="150%" class="img-fluid">
                     </div>
                 </div>
             </div>
