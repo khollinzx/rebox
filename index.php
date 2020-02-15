@@ -19,7 +19,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-6 col-lg-6">
-                    <div class="hero-content-left text-white mt-3">
+                    <div class="hero-content-left text-white mt-5">
                         <h3 class="text-white" style="text-align:inherit"><span>Rebox</span> Makes investments Accessible By giving you the Best Investment options from diverse sector.</h3>
                         <br>
                         <br>
