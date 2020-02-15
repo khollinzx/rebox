@@ -8,7 +8,7 @@ require_once(ROOT_PATH . 'core/init.php');
 
 include(ROOT_PATH . 'inc/landingPageheader.php');
 
-include(ROOT_PATH . 'inc/landingPageNavbar.php');
+include(ROOT_PATH . 'inc/authenticationPageNavbar.php');
 ?>
 
 
