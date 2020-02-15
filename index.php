@@ -29,7 +29,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                         <a href="<?php echo BASE_URL; ?>create/" class="btn app-store-btn">SIGN UP TO GET STARTED</a>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-5">
+                <div class="col-md-6 col-lg-6">
                     <div class="hero-animation-img">
                         <img src="<?php echo BASE_URL; ?>assets/img/undraw_finance_0bdk.svg" alt="img" width="150%" height="150%" class="img-fluid">
                     </div>
