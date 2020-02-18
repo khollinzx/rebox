@@ -28,7 +28,7 @@
                         <ul class="list-unstyled">
                             <li class="mb-2"><a href="<?php echo BASE_URL; ?>AboutUs/">About Us</a></li>
                             <li class="mb-2"><a href="<?php echo BASE_URL; ?>ContactUs/">Contact Us</a></li>
-                            <li class="mb-2"><a href="#">Privacy Policy</a></li>
+                            <li class="mb-2"><a href="<?php echo BASE_URL; ?>Policies/">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>

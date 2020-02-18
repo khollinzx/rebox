@@ -1,6 +1,7 @@
 RewriteEngine on
 RewriteRule ^home/$ ./index.php
 RewriteRule ^AboutUs/$ ./about.php
+RewriteRule ^Policies/$ ./policy.php
 RewriteRule ^ContactUs/$ ./contact.php
 RewriteRule ^proceed/$ ./login.php
 RewriteRule ^create/$ ./signup.php
