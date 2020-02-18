@@ -96,6 +96,7 @@ body, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, 
     -webkit-font-smoothing: antialiased;
 }
 
+
 body {
     background-color: #ffffff;
     font-family: 'Open Sans', sans-serif;
@@ -217,6 +218,11 @@ strong, b{
 .bg-color-4{
     background: #399fb6;
 }
+
+.color-Head{
+ color: #6f42c1;
+}
+
 
 .icon-color-1{
     background: #efdff7;

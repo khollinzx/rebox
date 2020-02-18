@@ -18,20 +18,22 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
     <section class="hero-section pt-100 background-img" style="background: url('<?php echo BASE_URL; ?>assets/img/hero-bg-1.jpg')no-repeat center top / cover">
         <div class="container">
             <div class="row align-items-center justify-content-between">
-                <div class="col-md-6 col-lg-6">
+                <div class="col-md-4 col-lg-6">
                     <div class="hero-content-left text-white mt-5">
-                        <h3 class="text-white" style="text-align:inherit"><span>Rebox</span> Makes investments Accessible By giving you the Best Investment options from diverse sector.</h3>
-                        <br>
-                        <br>
-                        <h3 style="color:#fff;" id="app">
-                        </h3>
+                        <h3 class="text-white" style="text-align:inherit">Welcome to the New Generation of inclusive investment.</h3>
+
+                        <h4 class="text-white mt-3" style="text-align:inherit"><span>Rebox</span> Makes investments Accessible By giving you the Best Investment options from diverse sector.</h4>
+
+                        <h5 class="mt-3" style="color:#fff;">You can:</h5>
+                        <h5 style="color:#fff;" id="app">
+                        </h5>
 
                         <a href="<?php echo BASE_URL; ?>create/" class="btn app-store-btn">SIGN UP TO GET STARTED</a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6">
+                <div class="col-md-8 col-lg-6">
                     <div class="hero-animation-img">
-                        <img src="<?php echo BASE_URL; ?>assets/img/undraw_finance_0bdk.svg" alt="img" width="150%" height="150%" class="img-fluid">
+                        <img src="<?php echo BASE_URL; ?>assets/img/undraw_finance_0bdk.svg" alt="img" height=600% alt="img" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -42,7 +44,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
     <!--hero section end-->
 
     <!--promo section start-->
-    <section class="promo-section mt-5 ptb-100">
+    <section class="promo-section ptb-100" style="margin-top: -5%;">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-lg-12 col-md-12">
@@ -58,10 +60,10 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                     <div class="card single-promo-card single-promo-hover">
                         <div class="card-body">
                             <div class="pb-2">
-                                <span class="ti-credit-card icon-md color-secondary"></span>
+                                <span class="fas fa-credit-card icon-md color-secondary"></span>
                             </div>
                             <div class="pt-2 pb-3">
-                                <h5>Trust Funds</h5>
+                                <h5>Mutual Funds</h5>
                                 <p class="text-muted mb-0">All components are built to be used in any combination.</p>
                             </div>
                         </div>
@@ -71,7 +73,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                     <div class="card single-promo-card single-promo-hover mb-lg-0">
                         <div class="card-body">
                             <div class="pb-2">
-                                <span class="ti-bar-chart-alt icon-md color-secondary"></span>
+                                <span class="fas fa-chart-pie icon-md color-secondary"></span>
                             </div>
                             <div class="pt-2 pb-3">
                                 <h5>Shares</h5>
@@ -84,10 +86,10 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                     <div class="card single-promo-card single-promo-hover mb-lg-0">
                         <div class="card-body">
                             <div class="pb-2">
-                                <span class="ti-wallet icon-md color-secondary"></span>
+                                <span class="fas fa-wallet icon-md color-secondary"></span>
                             </div>
                             <div class="pt-2 pb-3">
-                                <h5>Financial Project</h5>
+                                <h5>Project Finance</h5>
                                 <p class="text-muted mb-0">Remain consistent while developing new features.</p>
                             </div>
                         </div>
@@ -97,7 +99,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                     <div class="card single-promo-card single-promo-hover mb-lg-0">
                         <div class="card-body">
                             <div class="pb-2">
-                                <span class="ti-stats-up icon-md color-secondary"></span>
+                                <span class="fas fa-chart-line icon-md color-secondary"></span>
                             </div>
                             <div class="pt-2 pb-3">
                                 <h5>Forex</h5>
@@ -115,7 +117,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                     <div class="card single-promo-card single-promo-hover">
                         <div class="card-body">
                             <div class="pb-2">
-                                <span class="fa fa-btc icon-md color-secondary"></span>
+                                <span class="fab fa-bitcoin icon-md color-secondary"></span>
                             </div>
                             <div class="pt-2 pb-3">
                                 <h5>Cryptocurrencies</h5>
@@ -128,7 +130,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                     <div class="card single-promo-card single-promo-hover mb-lg-0">
                         <div class="card-body">
                             <div class="pb-2">
-                                <span class="ti-home icon-md color-secondary"></span>
+                                <span class="fas fa-home icon-md color-secondary"></span>
                             </div>
                             <div class="pt-2 pb-3">
                                 <h5>Real Estate</h5>
@@ -141,10 +143,10 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                     <div class="card single-promo-card single-promo-hover mb-lg-0">
                         <div class="card-body">
                             <div class="pb-2">
-                                <span class="ti-money icon-md color-secondary"></span>
+                                <span class="fas fa-dollar-sign icon-md color-secondary"></span>
                             </div>
                             <div class="pt-2 pb-3">
-                                <h5>Mutual Funds</h5>
+                                <h5>Annuities</h5>
                                 <p class="text-muted mb-0">Remain consistent while developing new features.</p>
                             </div>
                         </div>
@@ -154,10 +156,55 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                     <div class="card single-promo-card single-promo-hover mb-lg-0">
                         <div class="card-body">
                             <div class="pb-2">
-                                <span class="ti-receipt icon-md color-secondary"></span>
+                                <span class="fa fa-tractor icon-md color-secondary"></span>
                             </div>
                             <div class="pt-2 pb-3">
-                                <h5>Agricultural Project</h5>
+                                <h5>Agriculture</h5>
+                                <p class="text-muted mb-0">Change a few variables and the whole theme adapts.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="margin-top:2%;">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card single-promo-card single-promo-hover mb-lg-0">
+                        <div class="card-body">
+                            <div class="pb-2">
+                                <span class="fa fa-bank icon-md color-secondary"></span>
+                            </div>
+                            <div class="pt-2 pb-3">
+                                <h5>Bank Products</h5>
+                                <p class="text-muted mb-0">Change a few variables and the whole theme adapts.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="card single-promo-card single-promo-hover mb-lg-0">
+                        <div class="card-body">
+                            <div class="pb-2">
+                                <span class="fas fa-project-diagram icon-md color-secondary"></span>
+                            </div>
+                            <div class="pt-2 pb-3">
+                                <h5>Peer to Peer (P2P) Lending</h5>
+                                <p class="text-muted mb-0">Change a few variables and the whole theme adapts.</p>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card single-promo-card single-promo-hover mb-lg-0">
+                        <div class="card-body">
+                            <div class="pb-2">
+                                <span class="fas fa-cubes icon-md color-secondary"></span>
+                            </div>
+                            <div class="pt-2 pb-3">
+                                <h5>Equity</h5>
                                 <p class="text-muted mb-0">Change a few variables and the whole theme adapts.</p>
                             </div>
                         </div>

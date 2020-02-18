@@ -57,7 +57,7 @@
     <script src="<?php echo BASE_URL; ?>assets/js/jquery-3.4.1.min.js"></script>
     <!--Bootstrap js-->
     <script src="<?php echo BASE_URL; ?>assets/js/bootstrap.min.js"></script>
-    <!-- <script src="https://kit.fontawesome.com/63ddb44f72.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/63ddb44f72.js" crossorigin="anonymous"></script>
     <script src="<?php echo BASE_URL; ?>assets/js/core.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
