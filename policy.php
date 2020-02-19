@@ -39,7 +39,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                         <p style=" text-align: justify; font-size: 16px;">At Rebox we treat your personal information confidential and we are committed to protecting your privacy and providing you with the highest level of security at every given time.</p>
                         <p style="text-align: justify; font-size: 16px;">This Privacy Policy describes the personal information we collect, what we do with it and how we protect it,together with our Terms and Conditions sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed by us.</p>
 
-                        <ul style="margin: 15px 0 15px 40px; list-style:circle;">
+                        <ul style=" list-style:circle;">
                             <li class="" style="text-align: justify; font-size: 16px;"> We collect information about you from a variety of sources, such as: website visits, applications, identification documents,personal financial statements, interactions,and other third parties (credit bureaus, payment gateways, other financial institutions…) and other written or electronic communication reflecting information such as your name, address, passport details, identification numbers, biometric information, telephone number, occupation, assets, income and any other information we deem necessary.</li>
                             <br>
                             <li style="text-align: justify; font-size: 16px;">We may use your transactional account history including your account balance, payment records,We may also use information received from third parties such as family, solicitors, friends or employers, website/ social media pages made public by you, government agencies, regulators, supervisory or credit agencies.
@@ -71,7 +71,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                         <h3 class="color-Head">Use of Your Personal Information</h3>
                         <p style="text-align: justify; font-size: 16px;">The collection and use of personal data is guided by certain principles. These principles state that personal data should.</p>
 
-                        <Ul style="margin: 15px 0 15px 40px; list-style:circle;">
+                        <Ul style=" list-style:circle;">
                             <li style="text-align: justify; font-size: 16px;"> To be processed fairly, lawfully and in a transparent manner.</li>
                             <br>
                             <li style="text-align: justify; font-size: 16px;">To be obtained for a specified and lawful purpose and shall not be processed in any manner incompatible with such purposes.
@@ -82,7 +82,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
 
                         <p style="text-align: justify; font-size: 16px;">Any personal information provided by you will be used with your consent, or under the following underlisted instances:</p>
 
-                        <Ul style="margin: 15px 0 15px 40px; list-style:circle;">
+                        <Ul style=" list-style:circle;">
                             <li style="text-align: justify; font-size: 16px;">Where processing of personal data is required for the fulfilment of a contractual obligation.</li>
                             <br>
                             <li style="text-align: justify; font-size: 16px;">Where processing of personal data is required for compliance with legal and/or regulatory requirements.</li>
@@ -94,7 +94,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
 
                         <p style="text-align: justify; font-size: 16px;">Your Personal information will be used in:</p>
 
-                        <ul style="margin: 15px 0 15px 40px; list-style:circle;">
+                        <ul style=" list-style:circle;">
                             <li style="text-align: justify; font-size: 16px;">Executing your instructions.</li>
                             <br>
                             <li style="text-align: justify; font-size: 16px;">Establishing your identity and assessing applications for our products and services.</li>
@@ -121,7 +121,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
 
                         <p style="text-align: justify; font-size: 16px;">Your Personal information will be used in:</p>
 
-                        <ol style="margin: 15px 0 15px 40px; list-style:circle;">
+                        <ol style=" list-style:circle;">
                             <li style="text-align: justify; font-size: 16px;">Regulators/Supervisors, Government Agencies/courts - It may be necessary by law, legal process, litigation, and/or requests from public and governmental authorities within or outside your country for purposes of national security, law enforcement, or other issues of public importance, disclosure is necessary or appropriate.</li>
                             <br>
                             <li style="text-align: justify; font-size: 16px; ">Auditors.</li>
