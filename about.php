@@ -33,100 +33,10 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
     <section class="customer-review-section ptb-100 gray-light-bg">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-6 col-lg-6">
+                <div class="col-md-12 col-sm-12 col-lg-12">
                     <div class="testimonial-quote-wrap my-lg-3 my-md-3 rounded white-bg shadow-sm p-5">
-                        <div class="client-say">
-                            <p><img src="img/quote.png" alt="quote" class="img-fluid"> Rapidiously develop user friendly growth strategies after extensive initiatives. Conveniently grow innovative benefits through fully tested deliverables. Rapidiously utilize focused platforms through end-to-end schemas.</p>
-                        </div>
-                        <div class="media author-info mb-3">
-                            <div class="author-img mr-3">
-                                <img src="img/client-1.jpg" alt="client" class="img-fluid rounded-circle">
-                            </div>
-                            <div class="media-body">
-                                <h5 class="mb-0">Arabella Orin</h5>
-                                <span>AppCo</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-lg-6">
-                    <div class="testimonial-quote-wrap my-lg-3 my-md-3 rounded white-bg shadow-sm p-5">
-                        <div class="client-say">
-                            <p><img src="img/quote.png" alt="quote" class="img-fluid"> Rapidiously develop user friendly growth strategies after extensive initiatives. Conveniently grow innovative benefits through fully tested deliverables. Rapidiously utilize focused platforms through end-to-end schemas.</p>
-                        </div>
-                        <div class="media author-info mb-3">
-                            <div class="author-img mr-3">
-                                <img src="img/client-2.jpg" alt="client" class="img-fluid rounded-circle">
-                            </div>
-                            <div class="media-body">
-                                <h5 class="mb-0">Runu Mondol</h5>
-                                <span>BizBite</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-lg-6">
-                    <div class="testimonial-quote-wrap my-lg-3 my-md-3 rounded white-bg shadow-sm p-5">
-                        <div class="client-say">
-                            <p><img src="img/quote.png" alt="quote" class="img-fluid"> Rapidiously develop user friendly growth strategies after extensive initiatives. Conveniently grow innovative benefits through fully tested deliverables. Rapidiously utilize focused platforms through end-to-end schemas.</p>
-                        </div>
-                        <div class="media author-info mb-3">
-                            <div class="author-img mr-3">
-                                <img src="img/client-3.jpg" alt="client" class="img-fluid rounded-circle">
-                            </div>
-                            <div class="media-body">
-                                <h5 class="mb-0">Orko Arif</h5>
-                                <span>Bizbite</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-lg-6">
-                    <div class="testimonial-quote-wrap my-lg-3 my-md-3 rounded white-bg shadow-sm p-5">
-                        <div class="client-say">
-                            <p><img src="img/quote.png" alt="quote" class="img-fluid"> Rapidiously develop user friendly growth strategies after extensive initiatives. Conveniently grow innovative benefits through fully tested deliverables. Rapidiously utilize focused platforms through end-to-end schemas.</p>
-                        </div>
-                        <div class="media author-info mb-3">
-                            <div class="author-img mr-3">
-                                <img src="img/client-4.jpg" alt="client" class="img-fluid rounded-circle">
-                            </div>
-                            <div class="media-body">
-                                <h5 class="mb-0">Rana Tabik</h5>
-                                <span>AppCo Ltd</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-lg-6">
-                    <div class="testimonial-quote-wrap my-lg-3 my-md-3 rounded white-bg shadow-sm p-5">
-                        <div class="client-say">
-                            <p><img src="img/quote.png" alt="quote" class="img-fluid"> Rapidiously develop user friendly growth strategies after extensive initiatives. Conveniently grow innovative benefits through fully tested deliverables. Rapidiously utilize focused platforms through end-to-end schemas.</p>
-                        </div>
-                        <div class="media author-info mb-3">
-                            <div class="author-img mr-3">
-                                <img src="img/client-5.jpg" alt="client" class="img-fluid rounded-circle">
-                            </div>
-                            <div class="media-body">
-                                <h5 class="mb-0">Rando Trump</h5>
-                                <span>BizBite</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-lg-6">
-                    <div class="testimonial-quote-wrap my-lg-3 my-md-3 rounded white-bg shadow-sm p-5">
-                        <div class="client-say">
-                            <p><img src="img/quote.png" alt="quote" class="img-fluid"> Rapidiously develop user friendly growth strategies after extensive initiatives. Conveniently grow innovative benefits through fully tested deliverables. Rapidiously utilize focused platforms through end-to-end schemas.</p>
-                        </div>
-                        <div class="media author-info mb-3">
-                            <div class="author-img mr-3">
-                                <img src="img/client-2.jpg" alt="client" class="img-fluid rounded-circle">
-                            </div>
-                            <div class="media-body">
-                                <h5 class="mb-0">Jon Deoa</h5>
-                                <span>BitBite</span>
-                            </div>
-                        </div>
+                        <h3 class="color-Head text-center">Rebox</h3>
+                        <p style="text-align: justify; font-size: 16px;">Rebox.ng is a property of Business integration and service support , a company duly registered with the Coporate Affairs Commission, Nigeria. Rebox.ng is the platform that gives access to the use of our marketing, Customer Services, Operations and Technology by registered brokers.</p>
                     </div>
                 </div>
             </div>
