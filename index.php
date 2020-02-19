@@ -396,10 +396,10 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
         loop: true
     });
 
-    typewriter.typeString('own local shares, trust funds.')
+    typewriter.typeString('Own local shares, trust funds.')
         .pauseFor(2500)
         .deleteAll()
-        .typeString('finance project, trade forex.')
+        .typeString('Finance project, trade forex.')
         .pauseFor(2500)
         .deleteAll()
         .typeString('Invest directly into Africa from anywhere in the world.')
