@@ -16,6 +16,15 @@
                                                         } ?>" href="<?php echo BASE_URL; ?>home/">Home
                         </a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link page-scroll dropdown-toggle" href="#" id="navbarDropdownHome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Products
+                        </a>
+                        <div class="dropdown-menu submenu" aria-labelledby="navbarDropdownHome" style="background-color: #6530c1">
+                            <a class="dropdown-item" href="<?php echo BASE_URL; ?>thriffing/">Thrift Investing / USSD Investing</a>
+                            <a class="dropdown-item" href="<?php echo BASE_URL; ?>autoInvestor/">Auto-Investor (Premium)</a>
+                        </div>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link page-scroll <?php if ($linkTitle == 'calculator') {
                                                             echo 'active';
