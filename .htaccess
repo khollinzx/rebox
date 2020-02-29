@@ -10,3 +10,4 @@ RewriteRule ^app/account/$ ./app/index.php
 RewriteRule ^app/discover/$ ./app/discover.php
 RewriteRule ^app/transaction/$ ./app/transaction.php
 RewriteRule ^app/profile/$ ./app/profile.php
+RewriteRule ^errorPage/$ ./includes/errors/404.php

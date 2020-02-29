@@ -15,25 +15,28 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
 <div class="main">
 
     <!--hero section start-->
-    <section class="hero-section pt-100 background-img" style="background: url('<?php echo BASE_URL; ?>assets/img/hero-bg-1.jpg')no-repeat center top / cover">
+    <section class="hero-section pt-100 background-img" style="background: url('<?php echo BASE_URL; ?>assets/img/Asset 6.png')no-repeat center top / cover">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-4 col-lg-6">
-                    <div class="hero-content-left text-white mt-5">
+                    <div class="hero-content-left text-white mt-">
                         <h3 class="text-white" style="text-align:inherit">Welcome to the New Generation of inclusive investment.</h3>
 
                         <h4 class="text-white mt-3" style="text-align:inherit"><span>Rebox</span> Makes investments Accessible By giving you the Best Investment options from diverse sector.</h4>
 
-                        <h5 class="mt-3" style="color:#fff;">You can:</h5>
-                        <h5 style="color:#fff;" id="app">
+                        <h5 class="mt-3" style="color:#fff;">You can <span style="color:#fff;" id="app"></span>
                         </h5>
+
 
                         <a href="<?php echo BASE_URL; ?>create/" class="btn app-store-btn">SIGN UP TO GET STARTED</a>
                     </div>
                 </div>
                 <div class="col-md-8 col-lg-6">
                     <div class="hero-animation-img">
-                        <img src="<?php echo BASE_URL; ?>assets/img/undraw_finance_0bdk.svg" alt="img" height=600% alt="img" class="img-fluid">
+                        <img class="img-fluid d-block animation-one" src="<?php echo BASE_URL; ?>assets/img/hero-animation-04.svg" alt="animation image">
+                        <img class="img-fluid d-none d-lg-block animation-two" src="<?php echo BASE_URL; ?>assets/img/hero-animation-01.svg" alt="animation image" width="120">
+                        <img class="img-fluid d-none d-lg-block animation-three" src="<?php echo BASE_URL; ?>assets/img/hero-animation-02.svg" alt="animation image" width="120">
+                        <img class="img-fluid d-none d-lg-block animation-four" src="<?php echo BASE_URL; ?>assets/img/hero-animation-03.svg" alt="animation image" width="230">
                     </div>
                 </div>
             </div>
@@ -216,44 +219,60 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
     <!--promo section end-->
 
     <!-- Services Start -->
-    <section id="about" class="about-us ptb-100 gray-light-bg">
-        <div class="container">
-            <div class="row align-items-center">
+    <section id="about" class="about-us ptb- gray-light-bg mt-2">
 
-                <div class="col-lg-6">
-                    <h2 class="mt-5">How it Works</h2>
-                    <p class="mb- lh-190">Here are the following steps to get started.</p>
-                    <div class="single-feature mb-4 mt-5">
-                        <div class="icon-box-wrap d-flex align-items-center mb-2">
-                            <div class="mr-3 icon-box">
-                                <span class="ti-user icon-md color-secondary"></span>
-                                <!-- <img src="<?php echo BASE_URL; ?>assets/img/image-icon-1.png" alt="icon image" class="img-fluid"> -->
-                            </div>
-                            <p class="mb-0">Create an Account.</p>
-                        </div>
-                    </div>
-                    <div class="single-feature mb-4">
-                        <div class="icon-box-wrap mb-2">
-                            <div class="mr-3 icon-box">
-                                <span class="ti-list icon-md color-secondary"></span>
-                                <!-- <img style="color:blueviolet" src="img/image-icon-2.png" alt="icon image" class="img-fluid"> -->
-                            </div>
-                            <p class="mb-0">Select from a wide range of investments.</p>
-                        </div>
-                    </div>
-                    <div class="single-feature mb-4">
-                        <div class="icon-box-wrap mb-2">
-                            <div class="mr-3 icon-box">
-                                <!-- <img src="img/image-icon-3.png" alt="icon image" class="img-fluid"> -->
-                                <span class="ti-wallet icon-md color-secondary"></span>
-                            </div>
-                            <p class="mb-0">Fund and Start Earning.</p>
-                        </div>
+        <div class="container ">
+            <div class="row ">
+                <div class="col-lg-12 col-md-12">
+                    <div class="section-heading text-center">
+                        <h2 class="mt-5" style="color:blueviolet; font-weight:bolder ">How it Works</h2>
+                        <p class="mb- lh-190">Here are the following steps to get started.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="row offset-2 mt-2">
+            <div class="col-md-4">
+                <div class="icon-box-wrap d-flex align-items-center mb-2">
+                    <div class="mr-3 icon-box">
+                        <span class="ti-user icon-md color-secondary"></span>
+                        <!-- <img src="<?php echo BASE_URL; ?>assets/img/image-icon-1.png" alt="icon image" class="img-fluid"> -->
+                    </div>
+                    <p class="mb-0">Create an Account.</p>
+                </div>
+            </div>
 
+            <div class="col-md-4">
+
+                <div class="icon-box-wrap mb-2">
+                    <div class="mr-3 icon-box">
+                        <span class="ti-list icon-md color-secondary"></span>
+                        <!-- <img style="color:blueviolet" src="img/image-icon-2.png" alt="icon image" class="img-fluid"> -->
+                    </div>
+                    <p class="mb-0">Select from a wide range of investments.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="icon-box-wrap mb-2">
+                    <div class="mr-3 icon-box">
+                        <!-- <img src="img/image-icon-3.png" alt="icon image" class="img-fluid"> -->
+                        <span class="ti-wallet icon-md color-secondary"></span>
+                    </div>
+                    <p class="mb-0">Fund and Start Earning.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Services close -->
+
+    <section id="about" class="about-us ptb- gray-light-bg">
+        <div class="container">
+            <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <h2 class="mt-">Our Services</h2>
+                    <h2 class="mt-" style="color:blueviolet; font-weight:bolder ">Our Services</h2>
                     <p class="mb-4 lh-190">Rebox makes it possible to.</p>
                     <ul class="list-unstyled">
                         <li class="py-2">
@@ -264,7 +283,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                                     </div>
                                 </div>
                                 <div>
-                                    <p class="mb-0">View all your investments on its platform</p>
+                                    <p class="mb-0">Financial Inclusion</p>
                                 </div>
                             </div>
                         </li>
@@ -276,7 +295,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                                     </div>
                                 </div>
                                 <div>
-                                    <p class="mb-0">Purchase Additional investment</p>
+                                    <p class="mb-0">Investment insights and analysis</p>
                                 </div>
                             </div>
                         </li>
@@ -288,7 +307,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                                     </div>
                                 </div>
                                 <div>
-                                    <p class="mb-0">Get diverse investments options with the best rates</p>
+                                    <p class="mb-0">Crowdfunding Investments </p>
                                 </div>
                             </div>
                         </li>
@@ -300,7 +319,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                                     </div>
                                 </div>
                                 <div>
-                                    <p class="mb-0">Fast track investment purchase </p>
+                                    <p class="mb-0">Portfolio Management</p>
                                 </div>
                             </div>
                         </li>
@@ -312,34 +331,25 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                                     </div>
                                 </div>
                                 <div>
-                                    <p class="mb-0">Receive timely liquidation process</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="py-2">
-                            <div class="d-flex align-items-center">
-                                <div>
-                                    <div class="badge badge-circle badge-primary mr-3">
-                                        <span class="ti-check"></span>
-                                    </div>
-                                </div>
-                                <div>
-                                    <p class="mb-0">Access 24 hrs customer service</p>
+                                    <p class="mb-0">Customer Acquisition</p>
                                 </div>
                             </div>
                         </li>
                     </ul>
                 </div>
 
+                <div class="col-lg-6">
+                    <div class="about-content-right">
+                        <img src="<?php echo BASE_URL; ?>assets/img/about-img-services.png" alt="about us" class="img-fluid">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- Services close -->
 
     <!--our pricing packages section start-->
-    <section id="pricing" class="package-section ptb-100">
+    <section id="pricing" class="package-section ptb-100" style="margin-top:-5%; margin-bottom:-5%">
         <div class="container">
-
             <div class="row justify-content-center">
 
 
@@ -382,6 +392,49 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
 
             </div>
         </div>
+        <div class="container mt-5">
+            <!--clients logo start-->
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="section-heading text-center mb-5">
+                        <h2>Our Trusted Clients</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme clients-carousel dot-indicator owl-loaded owl-drag">
+
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage" style="transform: translate3d(-2250px, 0px, 0px); transition: all 4.5s linear 0s; width: 4125px;">
+
+                                <div class="owl-item active" style="width: 172.5px; margin-right: 15px;">
+                                    <div class="item single-client">
+                                        <img src="<?php echo BASE_URL; ?>assets/img/client3.png" alt="client logo" class="client-img">
+                                    </div>
+                                </div>
+                                <div class="owl-item active" style="width: 172.5px; margin-right: 15px;">
+                                    <div class="item single-client">
+                                        <img src="<?php echo BASE_URL; ?>assets/img/client-2-color.png" alt="client logo" class="client-img">
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned active" style="width: 172.5px; margin-right: 15px;">
+                                    <div class="item single-client">
+                                        <img src="<?php echo BASE_URL; ?>assets/img/client-4-colors.png" alt="client logo" class="client-img">
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned active" style="width: 172.5px; margin-right: 15px;">
+                                    <div class="item single-client">
+                                        <img src="<?php echo BASE_URL; ?>assets/img/client-7-colors.png" alt="client logo" class="client-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--clients logo end-->
+        </div>
     </section>
     <!--our pricing packages section end-->
 
@@ -396,19 +449,19 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
         loop: true
     });
 
-    typewriter.typeString('Own local shares, trust funds.')
+    typewriter.typeString('own local shares, trust funds.')
         .pauseFor(2500)
         .deleteAll()
-        .typeString('Finance project, trade forex.')
+        .typeString('finance project, trade forex.')
         .pauseFor(2500)
         .deleteAll()
-        .typeString('Invest directly into Africa from anywhere in the world.')
+        .typeString('invest directly into Africa from anywhere in the world.')
         .pauseFor(2500)
         .deleteAll()
-        .typeString('Never miss a new opportunity to invest and Earn')
+        .typeString('never miss a new opportunity to invest and earn.')
         .pauseFor(2500)
         .deleteAll()
-        .typeString('Whether you have short term investment plan or long time, rebox got you covered.')
+        .typeString('whether you have short term investment plan or long time, rebox got you covered.')
         .pauseFor(2500)
         .deleteAll()
         .start();

@@ -1,22 +1,41 @@
-<?php 
+<?php
 
-require_once($_SERVER["DOCUMENT_ROOT"]."/educate/constant/config.php");
+$pageTitle = "Rebox.ng";
+$linkTitle = "404";
+require_once($_SERVER["DOCUMENT_ROOT"] . "/constant/config.php");
 
 require_once(ROOT_PATH . 'core/init.php');
 
-include(ROOT_PATH . 'inc/header.php');
+include(ROOT_PATH . 'inc/landingPageheader.php');
+
+include(ROOT_PATH . 'inc/authenticationPageNavbar.php');
 ?>
 
-<div class="col-md-12">
-          <div class="col-middle">
-            <div class="text-center text-center">
-              <h1 class="error-number">404</h1>
-                <h1>You're Looking for Trouble, Why do you want to BY-PASS me</h1>
-                <p>This page you are looking for does not exist <a href="#">Report this?</a>
-                <a class="btn btn-dark" href="<?php echo BASE_URL;?>index.php"> Go to Home Page </a>
-                <div id="msg" >
-			          </div> 
-              </p>
+
+<!--body content wrap start-->
+<div class="main">
+
+  <!--hero section start-->
+  <!--hero section start-->
+  <section class="hero-section ptb-100 background-img full-screen" style="background: url('img/app-hero-bg.jpg')no-repeat center center / cover">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-9 col-lg-7">
+          <div class="error-content text-center text-white">
+            <div class="notfound-404">
+              <h1 class="text-white">404</h1>
             </div>
+            <h3 class="text-white">Sorry, something went wrong</h3>
+            <p>The page you are looking for might have been removed had its name changed or is temporarily
+              unavailable.</p><a class="btn app-store-btn" href="index.html">Go to Homepage</a>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+  <!--hero section end-->
+  <!--promo section end-->
+
+
+</div>
+<!--body content wrap end-->
