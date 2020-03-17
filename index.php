@@ -17,7 +17,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
     <!--hero section start-->
     <section class="hero-section pt-100 background-img" style="background: url('<?php echo BASE_URL; ?>assets/img/Asset 6.png')no-repeat center top / cover">
         <div class="container">
-            <div class="row align-items-center justify-content-between">
+            <div class="row align-items-center mt-5 justify-content-between">
                 <div class="col-md-4 col-lg-6">
                     <div class="hero-content-left text-white mt-">
                         <h3 class="text-white" style="text-align:inherit">Welcome to the New Generation of inclusive investment.</h3>
@@ -68,6 +68,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                             <div class="pt-2 pb-3">
                                 <h5>Mutual Funds</h5>
                                 <p class="text-muted mb-0">All components are built to be used in any combination.</p>
+                                <br>
                             </div>
                         </div>
                     </div>
@@ -80,7 +81,8 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                             </div>
                             <div class="pt-2 pb-3">
                                 <h5>Shares</h5>
-                                <p class="text-muted mb-0">Quick is optimized to work for most devices.</p>
+                                <p class="text-muted mb-0">Units of ownership interest in a company or financial asset.</p>
+                                <br>
                             </div>
                         </div>
                     </div>
@@ -93,7 +95,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                             </div>
                             <div class="pt-2 pb-3">
                                 <h5>Project Finance</h5>
-                                <p class="text-muted mb-0">Remain consistent while developing new features.</p>
+                                <p class="text-muted mb-0">Short and long-term infrastructure, industrial interest yielding projects.</p>
                             </div>
                         </div>
                     </div>
@@ -106,7 +108,8 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                             </div>
                             <div class="pt-2 pb-3">
                                 <h5>Forex</h5>
-                                <p class="text-muted mb-0">Change a few variables and the whole theme adapts.</p>
+                                <p class="text-muted mb-0">Global Market for Currencies.</p>
+                                <br><br>
                             </div>
                         </div>
                     </div>
@@ -124,7 +127,9 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                             </div>
                             <div class="pt-2 pb-3">
                                 <h5>Cryptocurrencies</h5>
-                                <p class="text-muted mb-0">All components are built to be used in any combination.</p>
+                                <p class="text-muted mb-0">Buy and Sell Digital Assets.</p>
+                                <br>
+                                <br>
                             </div>
                         </div>
                     </div>
@@ -137,7 +142,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                             </div>
                             <div class="pt-2 pb-3">
                                 <h5>Real Estate</h5>
-                                <p class="text-muted mb-0">Quick is optimized to work for most devices.</p>
+                                <p class="text-muted mb-0">Invest in the most reliable property source made up of land and the buildings on it.</p>
                             </div>
                         </div>
                     </div>
@@ -150,7 +155,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                             </div>
                             <div class="pt-2 pb-3">
                                 <h5>Annuities</h5>
-                                <p class="text-muted mb-0">Remain consistent while developing new features.</p>
+                                <p class="text-muted mb-0">Financial product that pays out a fixed stream of payments at intervals.</p>
                             </div>
                         </div>
                     </div>
@@ -163,7 +168,8 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                             </div>
                             <div class="pt-2 pb-3">
                                 <h5>Agriculture</h5>
-                                <p class="text-muted mb-0">Change a few variables and the whole theme adapts.</p>
+                                <p class="text-muted mb-0">Invest in Cultivating plants and Livestocks.</p>
+                                <br>
                             </div>
                         </div>
                     </div>
@@ -181,7 +187,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                             </div>
                             <div class="pt-2 pb-3">
                                 <h5>Bank Products</h5>
-                                <p class="text-muted mb-0">Change a few variables and the whole theme adapts.</p>
+                                <p class="text-muted mb-0">High yielding current,savings and fixed deposit.</p>
                             </div>
                         </div>
                     </div>
@@ -193,8 +199,8 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                                 <span class="fas fa-project-diagram icon-md color-secondary"></span>
                             </div>
                             <div class="pt-2 pb-3">
-                                <h5>Peer to Peer (P2P) Lending</h5>
-                                <p class="text-muted mb-0">Change a few variables and the whole theme adapts.</p>
+                                <h5>Loans</h5>
+                                <p class="text-muted mb-0">Require for a loan and pay back with out stress.</p>
                                 <br>
                             </div>
                         </div>
@@ -219,7 +225,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
     <!--promo section end-->
 
     <!-- Services Start -->
-    <section id="about" class="about-us ptb- gray-light-bg mt-2">
+    <section id="about" class="about-us gray-light-bg mt-2">
 
         <div class="container ">
             <div class="row ">
@@ -268,12 +274,11 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
     </section>
     <!-- Services close -->
 
-    <section id="about" class="about-us ptb- gray-light-bg">
+    <section id="about" class="about-us gray-light-bg">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h2 class="mt-" style="color:blueviolet; font-weight:bolder ">Our Services</h2>
-                    <p class="mb-4 lh-190">Rebox makes it possible to.</p>
+                <div class="col-lg-6 col-md-6">
+                    <h2 class="mt-4" style="color:blueviolet; font-weight:bolder ">Our Services</h2>
                     <ul class="list-unstyled">
                         <li class="py-2">
                             <div class="d-flex align-items-center">
@@ -338,7 +343,7 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                     </ul>
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6">
                     <div class="about-content-right">
                         <img src="<?php echo BASE_URL; ?>assets/img/about-img-services.png" alt="about us" class="img-fluid">
                     </div>

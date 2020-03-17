@@ -11,3 +11,5 @@ RewriteRule ^app/discover/$ ./app/discover.php
 RewriteRule ^app/transaction/$ ./app/transaction.php
 RewriteRule ^app/profile/$ ./app/profile.php
 RewriteRule ^errorPage/$ ./includes/errors/404.php
+RewriteRule ^autoInvestor/$ ./products.php
+RewriteRule ^thriffing/$ ./thriffing.php

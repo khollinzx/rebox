@@ -37,9 +37,11 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                 <div class="row justify-content-center">
                     <div class="col-md-8">
                         <div class="section-heading text-center mb-5">
-                            <h2>Afforadble Pricing and Packages <br><span>choose your best one</span></h2>
+                            <h2>Take your investments to the next level, with the premium auto investment option</h2>
                             <p class="lead">
-                                Monotonectally grow strategic process improvements vis-a-vis integrated resources.
+                                Trade high yielding forex and cryptocurrency while you relax and watch it grow
+                                Guaranteed growth of 5%/month
+                                .
                             </p>
                         </div>
                     </div>
@@ -50,22 +52,13 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                             <div class="pt-4">
                                 <h5>Basic</h5>
                             </div>
-                            <div class="pricing-img mt-4">
-                                <img src="img/basic.svg" alt="pricing img" class="img-fluid">
-                            </div>
+
                             <div class="card-header py-4 border-0 pricing-header">
-                                <div class="h1 text-center mb-0">$<span class="price font-weight-bolder">29</span></div>
+                                <div class="h1 text-center mb-0">$<span class="price font-weight-bolder">5.5<sup style="font-size: 15px; font-weight:bold">/mth</sup></span></div>
                             </div>
                             <div class="card-body">
-                                <ul class="list-unstyled text-sm mb-4 pricing-feature-list">
-                                    <li>Push Notifications</li>
-                                    <li>Data Transfer</li>
-                                    <li>SQL Database</li>
-                                    <li>Search & SEO Analytics</li>
-                                    <li>24/7 Phone Support</li>
-                                    <li>2 months technical support</li>
-                                    <li>2+ profitable keyword</li>
-                                </ul>
+                                <h5>Portfolio less than 250USD</h5>
+                                <p>Garanteed growth of 7% per month</p>
                                 <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
                             </div>
                         </div>
@@ -75,23 +68,13 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                             <div class="pt-4">
                                 <h5>Standard</h5>
                             </div>
-                            <div class="pricing-img mt-4">
-                                <img src="img/standard.svg" alt="pricing img" class="img-fluid">
-                            </div>
                             <div class="card-header py-4 border-0 pricing-header">
-                                <div class="h1 text-center mb-0">$<span class="price font-weight-bolder">149</span></div>
+                                <div class="h1 text-center mb-0">$<span class="price font-weight-bolder">7.5<sup style="font-size: 15px; font-weight:bold">/mth</sup></span></div>
 
                             </div>
                             <div class="card-body">
-                                <ul class="list-unstyled text-sm mb-4 pricing-feature-list">
-                                    <li>Push Notifications</li>
-                                    <li>Data Transfer</li>
-                                    <li>SQL Database</li>
-                                    <li>Search & SEO Analytics</li>
-                                    <li>24/7 Phone Support</li>
-                                    <li>1 Year technical support</li>
-                                    <li>50+ profitable keyword</li>
-                                </ul>
+                                <h5>Portfolio upto 400USD</h5>
+                                <p>Garanteed growth of 5% per month</p>
                                 <a href="#" class="btn solid-btn mb-3" target="_blank">Purchase now</a>
                             </div>
                         </div>
@@ -99,25 +82,15 @@ include(ROOT_PATH . 'inc/landingPageNavbar.php');
                     <div class="col-lg-4 col-md">
                         <div class="card text-center single-pricing-pack">
                             <div class="pt-4">
-                                <h5>Unlimited</h5>
-                            </div>
-                            <div class="pricing-img mt-4">
-                                <img src="img/unlimited.svg" alt="pricing img" class="img-fluid">
+                                <h5>Premium</h5>
                             </div>
                             <div class="card-header py-4 border-0 pricing-header">
                                 <div class="h1 text-center mb-0">$<span class="price font-weight-bolder">39</span></div>
                             </div>
                             <div class="card-body">
-                                <ul class="list-unstyled text-sm mb-4 pricing-feature-list">
-                                    <li>Push Notifications</li>
-                                    <li>Data Transfer</li>
-                                    <li>SQL Database</li>
-                                    <li>Search & SEO Analytics</li>
-                                    <li>24/7 Phone Support</li>
-                                    <li>6 months technical support</li>
-                                    <li>10+ profitable keyword</li>
-                                </ul>
-                                <a href="#" class="btn outline-btn mb-3" target="_blank">Purchase now</a>
+                                <h5>Portfolio greater than 500USD</h5>
+                                <p>Garanteed growth of 5% per month</p>
+                                <a href="#" class="btn outline-btn mb-3" target="_blank">Contact Us</a>
                             </div>
                         </div>
                     </div>
